@@ -132,8 +132,8 @@ public:
 		
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000af9230e7ee3c58e2ac00ab3125a57ee34c371ae2e2e47224ab8b024e8a8"));
-        assert(genesis.hashMerkleRoot == uint256("0xa20ddc82a5301f683438a3f4a68b39a793f4a86122b84446587e4b34e3ce1649"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 	
        	// New Seed Nodes added 17/02/2019
         vSeeds.push_back(CDNSSeedData("157.230.223.81 ", "157.230.223.81 "));  // Seed node 1 : New Jersey	more nodes to be added		
