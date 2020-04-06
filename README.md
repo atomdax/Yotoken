@@ -13,14 +13,14 @@ yotoken Coin – A Decentralized Data Sharing Platform, Hosting, and Content Dis
 | ALGO   | XEVAN |<br>
 | Block Size | `3MB` |<br>
 | Block Time | `300s` |<br>
-| PoW Reward | `10 YOCO` |*<br>
-| Masternode Requirement | `1,000 YOCO` |<br>
+| PoW Reward | `100 YOCO` |*<br>
+| Masternode Requirement | `50,000 YOCO` |<br>
 | Port | `23777` |
   
   
 | Block Reward Distribution | </br>
 
-10 YOCO per Block
+100 YOCO per Block
 
 
 </br>
