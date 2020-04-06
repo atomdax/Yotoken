@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/cobraxcoin/cobrax-core/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/yotokencoin/yotoken-core/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/cobraxcoin/cobrax-sigs/
-    git clone https://github.com/cobraxcoin/cobrax-detached-sigs/
+    git clone https://github.com/yotokencoin/yotoken-sigs/
+    git clone https://github.com/yotokencoin/yotoken-detached-sigs/
     git clone https://github.com/devrandom/gitian-builder/
-    git clone https://github.com/cobraxcoin/cobrax-core/
+    git clone https://github.com/yotokencoin/yotoken-core/
 
-### cobrax maintainers/release engineers, suggestion for writing release notes
+### yotoken maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./cobrax
+    pushd ./yotoken
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../cobrax-core/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../yotoken-core/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,50 +92,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url cobrax=/path/to/cobrax-core,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url yotoken=/path/to/yotoken-core,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign cobrax Core for Linux, Windows, and OS X:
+### Build and sign yotoken Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit cobrax=v${VERSION} ../cobrax-core/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../cobrax-core/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/cobrax-*.tar.gz build/out/src/cobrax-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit yotoken=v${VERSION} ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/yotoken-*.tar.gz build/out/src/yotoken-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit cobrax=v${VERSION} ../cobrax-core/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../cobrax-core/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/cobrax-*-win-unsigned.tar.gz inputs/cobrax-win-unsigned.tar.gz
-    mv build/out/cobrax-*.zip build/out/cobrax-*.exe ../
+    ./bin/gbuild --memory 3000 --commit yotoken=v${VERSION} ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/yotoken-*-win-unsigned.tar.gz inputs/yotoken-win-unsigned.tar.gz
+    mv build/out/yotoken-*.zip build/out/yotoken-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit cobrax=v${VERSION} ../cobrax-core/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../cobrax-core/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/cobrax-*-osx-unsigned.tar.gz inputs/cobrax-osx-unsigned.tar.gz
-    mv build/out/cobrax-*.tar.gz build/out/cobrax-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit yotoken=v${VERSION} ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/yotoken-*-osx-unsigned.tar.gz inputs/yotoken-osx-unsigned.tar.gz
+    mv build/out/yotoken-*.tar.gz build/out/yotoken-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`cobrax-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`cobrax-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`cobrax-${VERSION}-win[32|64]-setup-unsigned.exe`, `cobrax-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`cobrax-${VERSION}-osx-unsigned.dmg`, `cobrax-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`yotoken-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`yotoken-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`yotoken-${VERSION}-win[32|64]-setup-unsigned.exe`, `yotoken-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`yotoken-${VERSION}-osx-unsigned.dmg`, `yotoken-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import cobrax/contrib/gitian-keys/*.pgp
+    gpg --import yotoken/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../cobrax-core/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../cobrax-core/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../cobrax-core/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -156,22 +156,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer cobrax-osx-unsigned.tar.gz to osx for signing
-    tar xf cobrax-osx-unsigned.tar.gz
+    transfer yotoken-osx-unsigned.tar.gz to osx for signing
+    tar xf yotoken-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf cobrax-win-unsigned.tar.gz
+    tar xf yotoken-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/cobrax-detached-sigs
+    cd ~/yotoken-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -184,25 +184,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [cobrax-detached-sigs](https://github.com/cobraxcoin/cobrax-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [yotoken-detached-sigs](https://github.com/yotokencoin/yotoken-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../cobrax-core/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../cobrax-core/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../cobrax-core/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/cobrax-osx-signed.dmg ../cobrax-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/yotoken-osx-signed.dmg ../yotoken-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../cobrax-core/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../cobrax-core/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../cobrax-core/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/cobrax-*win64-setup.exe ../cobrax-${VERSION}-win64-setup.exe
-    mv build/out/cobrax-*win32-setup.exe ../cobrax-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../yotoken-core/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../yotoken-core/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/yotoken-*win64-setup.exe ../yotoken-${VERSION}-win64-setup.exe
+    mv build/out/yotoken-*win32-setup.exe ../yotoken-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -225,24 +225,24 @@ sha256sum * > SHA256SUMS
 The list of files should be:
 
 ```
-cobrax-${VERSION}-aarch64-linux-gnu.tar.gz
-cobrax-${VERSION}-arm-linux-gnueabihf.tar.gz
-cobrax-${VERSION}-i686-pc-linux-gnu.tar.gz
-cobrax-${VERSION}-x86_64-linux-gnu.tar.gz
-cobrax-${VERSION}-osx64.tar.gz
-cobrax-${VERSION}-osx.dmg
-cobrax-${VERSION}.tar.gz
-cobrax-${VERSION}-win32-setup.exe
-cobrax-${VERSION}-win32.zip
-cobrax-${VERSION}-win64-setup.exe
-cobrax-${VERSION}-win64.zip
+yotoken-${VERSION}-aarch64-linux-gnu.tar.gz
+yotoken-${VERSION}-arm-linux-gnueabihf.tar.gz
+yotoken-${VERSION}-i686-pc-linux-gnu.tar.gz
+yotoken-${VERSION}-x86_64-linux-gnu.tar.gz
+yotoken-${VERSION}-osx64.tar.gz
+yotoken-${VERSION}-osx.dmg
+yotoken-${VERSION}.tar.gz
+yotoken-${VERSION}-win32-setup.exe
+yotoken-${VERSION}-win32.zip
+yotoken-${VERSION}-win64-setup.exe
+yotoken-${VERSION}-win64.zip
 ```
 
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the http://bit.cobraxs/ server*.
+space *do not upload these to the http://bit.yotokens/ server*.
 
 - GPG-sign it, delete the unsigned file:
 
@@ -260,10 +260,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/cobraxcoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/yotokencoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/cobraxcoin/cobrax-core/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/yotokencoin/yotoken-core/releases/new) with a link to the archived release notes.
 
   - Celebrate

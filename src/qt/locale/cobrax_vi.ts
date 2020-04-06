@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ cobrax của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
+        <source>These are your yotoken addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ yotoken của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ cobrax của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
+        <source>These are your yotoken addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ yotoken của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Xác nhận mã hoá ví</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CBRX&lt;/b&gt;!</source>
-        <translation>Chú ý: Nếu bạn mã hoá ví và mất mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ CBRX CỦA BẠN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YOCO&lt;/b&gt;!</source>
+        <translation>Chú ý: Nếu bạn mã hoá ví và mất mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ YOCO CỦA BẠN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>cobrax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your cobraxs from being stolen by malware infecting your computer.</source>
-        <translation>cobrax sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ cobrax khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
+        <source>yotoken will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yotokens from being stolen by malware infecting your computer.</source>
+        <translation>yotoken sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ yotoken khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a cobrax address</source>
-        <translation>Gửi tiền vào địa chỉ cobrax</translation>
+        <source>Send coins to a yotoken address</source>
+        <translation>Gửi tiền vào địa chỉ yotoken</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Nhận</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and cobrax:URIs)</source>
-        <translation>Yêu cầu thanh toán (sinh mã QR và cobrax:URIs)</translation>
+        <source>Request payments (generates QR codes and yotoken:URIs)</source>
+        <translation>Yêu cầu thanh toán (sinh mã QR và yotoken:URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About cobrax Core</source>
-        <translation>&amp;Về cobrax Core</translation>
+        <source>&amp;About yotoken Core</source>
+        <translation>&amp;Về yotoken Core</translation>
     </message>
     <message>
-        <source>Show information about cobrax Core</source>
-        <translation>Hiển thị thông tin về cobrax Core</translation>
+        <source>Show information about yotoken Core</source>
+        <translation>Hiển thị thông tin về yotoken Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
-        <source>Modify configuration options for cobrax</source>
-        <translation>Thay đổi tuỳ chọn cấu hình cho cobrax</translation>
+        <source>Modify configuration options for yotoken</source>
+        <translation>Thay đổi tuỳ chọn cấu hình cho yotoken</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
-        <source>Sign messages with your cobrax addresses to prove you own them</source>
-        <translation>Ký vào thông điệp với địa chỉ cobrax để chứng minh bạn là chủ của chúng</translation>
+        <source>Sign messages with your yotoken addresses to prove you own them</source>
+        <translation>Ký vào thông điệp với địa chỉ yotoken để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified cobrax addresses</source>
-        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ cobrax nhất định</translation>
+        <source>Verify messages to ensure they were signed with specified yotoken addresses</source>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ yotoken nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a cobrax: URI or payment request</source>
-        <translation>Mở một cobrax: URI hoặc một yêu cầu thanh toán</translation>
+        <source>Open a yotoken: URI or payment request</source>
+        <translation>Mở một yotoken: URI hoặc một yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>cobrax Core client</source>
-        <translation>Phần mềm cobrax Core</translation>
+        <source>yotoken Core client</source>
+        <translation>Phần mềm yotoken Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the cobrax Core help message to get a list with possible cobrax command-line options</source>
-        <translation>Hiển thị hướng dẫn của cobrax Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của cobrax.</translation>
+        <source>Show the yotoken Core help message to get a list with possible yotoken command-line options</source>
+        <translation>Hiển thị hướng dẫn của yotoken Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của yotoken.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to cobrax network</source>
-        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của cobrax</numerusform></translation>
+        <source>%n active connection(s) to yotoken network</source>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của yotoken</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Kiểu: %3
         <translation>Hãy chọn mức độ riêng tư.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 CBRX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 YOCO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 CBRX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 YOCO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CBRX to anonymize 1000 CBRX</source>
-        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 CBRX để ẩn danh 1000 CBRX</translation>
+        <source>This option is the quickest and will cost about ~0.025 YOCO to anonymize 1000 YOCO</source>
+        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 YOCO để ẩn danh 1000 YOCO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CBRX to anonymize 1000 CBRX</source>
-        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 CBRX để ẩn danh 1000 CBRX</translation>
+        <source>This option is moderately fast and will cost about 0.05 YOCO to anonymize 1000 YOCO</source>
+        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 YOCO để ẩn danh 1000 YOCO</translation>
     </message>
     <message>
-        <source>0.1 CBRX per 1000 CBRX you anonymize.</source>
-        <translation>0.1 CBRX cho mỗi 1000 CBRX bạn muốn ẩn danh.</translation>
+        <source>0.1 YOCO per 1000 YOCO you anonymize.</source>
+        <translation>0.1 YOCO cho mỗi 1000 YOCO bạn muốn ẩn danh.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Kiểu: %3
         <translation>Cấu hình Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình cobrax.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình yotoken.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình cobrax.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình yotoken.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình cobrax.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình yotoken.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Kiểu: %3
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid cobrax address.</source>
-        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ cobrax hợp lệ.</translation>
+        <source>The entered address "%1" is not a valid yotoken address.</source>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ yotoken hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About cobrax Core</source>
-        <translation>Về cobrax Core</translation>
+        <source>About yotoken Core</source>
+        <translation>Về yotoken Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to cobrax Core.</source>
-        <translation>Chào mừng đến với cobrax Core.</translation>
+        <source>Welcome to yotoken Core.</source>
+        <translation>Chào mừng đến với yotoken Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where cobrax Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà cobrax Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where yotoken Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà yotoken Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>cobrax Core will download and store a copy of the cobrax block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>cobrax Core sẽ tải và lưu một bản của sổ cái cobrax. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>yotoken Core will download and store a copy of the yotoken block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>yotoken Core sẽ tải và lưu một bản của sổ cái yotoken. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Kiểu: %3
         <translation>&amp;Chính</translation>
     </message>
     <message>
-        <source>Automatically start cobrax after logging in to the system.</source>
-        <translation>Tự động khởi động cobrax sau khi đăng nhập hệ thống.</translation>
+        <source>Automatically start yotoken after logging in to the system.</source>
+        <translation>Tự động khởi động yotoken sau khi đăng nhập hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start cobrax on system login</source>
-        <translation>&amp;Khởi động cobrax khi đăng nhập hệ thống</translation>
+        <source>&amp;Start yotoken on system login</source>
+        <translation>&amp;Khởi động yotoken khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Kiểu: %3
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt Obfuscate một khi nó đạt đến.</translation>
     </message>
     <message>
-        <source>Amount of cobrax to keep anonymized</source>
-        <translation>Lượng cobrax muốn giữ vô danh</translation>
+        <source>Amount of yotoken to keep anonymized</source>
+        <translation>Lượng yotoken muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Kiểu: %3
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the cobrax network through a SOCKS5 proxy.</source>
-        <translation>Kết nối với mạng lưới cobrax thông qua một SOCK5 proxy.</translation>
+        <source>Connect to the yotoken network through a SOCKS5 proxy.</source>
+        <translation>Kết nối với mạng lưới yotoken thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Kiểu: %3
         <translation>&amp;Mạng</translation>
     </message>
     <message>
-        <source>Automatically open the cobrax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng phần mềm cobrax trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
+        <source>Automatically open the yotoken client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng phần mềm yotoken trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Kiểu: %3
         <translation>&amp;Ngôn ngữ người dùng:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting cobrax.</source>
-        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại cobrax.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting yotoken.</source>
+        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại yotoken.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</source>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</source>
         <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the cobrax network after a connection is established, but this process has not completed yet.</source>
-        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới cobrax sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the yotoken network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới yotoken sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Số tiền và số vòng:</translation>
     </message>
     <message>
-        <source>0 CBRX / 0 Rounds</source>
-        <translation>0 CBRX / 0 Vòng</translation>
+        <source>0 YOCO / 0 Rounds</source>
+        <translation>0 YOCO / 0 Vòng</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Yêu cầu thanh toán bị lỗi</translation>
     </message>
     <message>
-        <source>Cannot start cobrax: click-to-pay handler</source>
-        <translation>Không thể khởi động cobrax: trình xử lý click-to-pay</translation>
+        <source>Cannot start yotoken: click-to-pay handler</source>
+        <translation>Không thể khởi động yotoken: trình xử lý click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid cobrax address or malformed URI parameters.</source>
-        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ cobrax không hợp lệ hoặc thông số URI dị hình.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid yotoken address or malformed URI parameters.</source>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ yotoken không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a cobrax address (e.g. %1)</source>
-        <translation>Hãy nhập một địa chỉ cobrax (VD: %1)</translation>
+        <source>Enter a yotoken address (e.g. %1)</source>
+        <translation>Hãy nhập một địa chỉ yotoken (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Số kết nối</translation>
     </message>
     <message>
-        <source>Open the cobrax debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file nhật kỹ lỗi cobrax từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
+        <source>Open the yotoken debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file nhật kỹ lỗi yotoken từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Ra:</translation>
     </message>
     <message>
-        <source>Welcome to the cobrax RPC console.</source>
-        <translation>Chào mừng đến với giao tiếp cobrax RPC</translation>
+        <source>Welcome to the yotoken RPC console.</source>
+        <translation>Chào mừng đến với giao tiếp yotoken RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới cobrax.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới yotoken.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới cobrax.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới yotoken.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Nếu phí giao dịch tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 bytes, thì "theo kilobyte" chỉ trả 250 duff phí,&lt;br /&gt;trong khi "tổng ít nhất" trả 1000 duff. Với các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for cobrax transactions than the network can process.</source>
-        <translation>Chỉ trả phí tối thiểu cũng được chỉ khi mà có lượng giao dịch ít hơn không gian trong khối.&lt;br /&gt;Nhưng cần lưu ý là nó có thể xảy ra hiện tượng giao dịch không bao giờ được xác nhận một khi có nhiều nhu cầu giao cobrax hơn khả năng mà mạng lưới có thể xử lý được.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for yotoken transactions than the network can process.</source>
+        <translation>Chỉ trả phí tối thiểu cũng được chỉ khi mà có lượng giao dịch ít hơn không gian trong khối.&lt;br /&gt;Nhưng cần lưu ý là nó có thể xảy ra hiện tượng giao dịch không bao giờ được xác nhận một khi có nhiều nhu cầu giao yotoken hơn khả năng mà mạng lưới có thể xử lý được.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Thanh toán chỉ mức phí tối thiểu của %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid cobrax address</source>
-        <translation>Cảnh báo: Địa chỉ cobrax không hợp lệ</translation>
+        <source>Warning: Invalid yotoken address</source>
+        <translation>Cảnh báo: Địa chỉ yotoken không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The cobrax address to send the payment to</source>
-        <translation>Địa chỉ cobrax để gửi thanh toán</translation>
+        <source>The yotoken address to send the payment to</source>
+        <translation>Địa chỉ yotoken để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the cobrax:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the cobrax network.</source>
-        <translation>Một thông điệp được đính với cobrax:URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng cobrax. </translation>
+        <source>A message that was attached to the yotoken:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the yotoken network.</source>
+        <translation>Một thông điệp được đính với yotoken:URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng yotoken. </translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>cobrax Core is shutting down...</source>
-        <translation>cobrax Core đang được tắt...</translation>
+        <source>yotoken Core is shutting down...</source>
+        <translation>yotoken Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Bạn có thể ký vào thông điệp với địa chỉ của bạn để chứng minh bạn là chủ của nó. Hãy cẩn thận không ký vào những gì mơ hồ, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The cobrax address to sign the message with</source>
-        <translation>Địa chỉ cobrax để ký cho thông điệp</translation>
+        <source>The yotoken address to sign the message with</source>
+        <translation>Địa chỉ yotoken để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this cobrax address</source>
-        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ cobrax</translation>
+        <source>Sign the message to prove you own this yotoken address</source>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ yotoken</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Hãy nhập địa chỉ ký, thông điệp (hãy chắc chắn rằng bạn copy cả các dấu xuống dòng, dấu cách, tab,... một cách chính xác) và chữ ký dưới đây để xác thực cho thông điệp. Hãy cẩn thận không thêm vào chữ ký hơn so với bản thân nó trong thông điệp đã ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian.</translation>
     </message>
     <message>
-        <source>The cobrax address the message was signed with</source>
-        <translation>Địa chỉ cobrax mà thông điệp được ký bởi</translation>
+        <source>The yotoken address the message was signed with</source>
+        <translation>Địa chỉ yotoken mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified cobrax address</source>
-        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ cobrax cụ thể</translation>
+        <source>Verify the message to ensure it was signed with the specified yotoken address</source>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ yotoken cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The cobrax Core developers</source>
-        <translation>Nhóm phát triển cobrax Core</translation>
+        <source>The yotoken Core developers</source>
+        <translation>Nhóm phát triển yotoken Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Gửi tiền</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 CBRX.</source>
-        <translation>InstantX không hỗ trợ để gửi giá trị lớn đến như vậy. Giới hạn giao dịch hiện tại đến %1 CBRX.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 YOCO.</source>
+        <translation>InstantX không hỗ trợ để gửi giá trị lớn đến như vậy. Giới hạn giao dịch hiện tại đến %1 YOCO.</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     </message>
 </context>
 <context>
-    <name>cobrax-core</name>
+    <name>yotoken-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. cobrax Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. cobrax Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. yotoken Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. yotoken Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. cobrax Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. cobrax Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. yotoken Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. yotoken Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
         <translation>Không tìm đủ ngân sách Obfuscate denominated cho giao dịch này.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Không tìm đủ ngân sách Obfuscate denominated cho giao dịch mà nó không bằng 1000 CBRX</translation>
+        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Không tìm đủ ngân sách Obfuscate denominated cho giao dịch mà nó không bằng 1000 YOCO</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Xoá hết tất cả các giao dịch ví và chỉ phục hồi những phần đó của blockchain qua -rescan khi khởi động</translation>
     </message>
     <message>
-        <source>Disable all cobrax specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đặc trưng của cobrax (Masternode, Obfuscate, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
+        <source>Disable all yotoken specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đặc trưng của yotoken (Masternode, Obfuscate, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Lỗi: Thấy tham số không được hỗ trợ -socks. Thiết lập phiên bản SOCKS là không thể được nữa, chỉ hỗ trợ proxy SOCKS5.</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Phí (tính theo CBRX/Kb) nhỏ hơn số này được coi là không mất phí cho việc chuyển tiền (ngầm định: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Phí (tính theo YOCO/Kb) nhỏ hơn số này được coi là không mất phí cho việc chuyển tiền (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Phí (theo CBRX/Kb) nhỏ hơn số này được coi không mất phí cho việc khởi tạo giao dịch (ngầm định: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Phí (theo YOCO/Kb) nhỏ hơn số này được coi không mất phí cho việc khởi tạo giao dịch (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3710,32 +3710,32 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Sản phẩm này có kèm theo phần mềm được phát triển bởi dự án OpenSSL để sử dụng các công cụ OpenSSL &lt;https://www.openssl.org/&gt; và phần mềm mã hoá được viết bởi Eric Young và phần mềm UPnP được viết bởi Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use cobraxd, or the -server option to cobrax-qt, you must set an rpcpassword in the configuration file:
+        <source>To use yotokend, or the -server option to yotoken-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cobraxrpc
+rpcuser=yotokenrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "yotoken Alert" admin@foo.com
 </source>
-        <translation>Để sử dụng cobraxd, hoặc tuỳ chọn -server với cobrax-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
+        <translation>Để sử dụng yotokend, hoặc tuỳ chọn -server với yotoken-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
 %s
 Gợi ý rằng bạn nên sử dụng những mật khẩu ngẫu nhiên sau:
-rpcuser=cobraxrpc
+rpcuser=yotokenrpc
 rpcpassword=%s
 (bạn không cần thiết phải nhớ mật khẩu này)
 Username và mật khẩu KHÔNG ĐƯỢC giống nhau.
 Nếu tệp chưa có, thì hãy tạo ra với quyền chỉ đọc.
 Gợi ý bạn rằng cần đặt alertnotify để bạn nhận được thông báo về các vấn đề;
-ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
+ví dụ: alertnotify=echo %%s | mail -s "yotoken Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 CBRX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 YOCO.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong cobrax Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì cobrax Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong yotoken Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì yotoken Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3803,8 +3803,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Bản quyền (C) 2015-%i bởi Nhóm phát triển ALQO Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The cobrax Core Developers</source>
-        <translation>Bản quyền (C) 2017-%i bởi Nhóm phát triển cobrax Core</translation>
+        <source>Copyright (C) 2017-%i The yotoken Core Developers</source>
+        <translation>Bản quyền (C) 2017-%i bởi Nhóm phát triển yotoken Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3835,8 +3835,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of cobrax Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của cobrax Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of yotoken Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của yotoken Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3851,8 +3851,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Lỗi: Tìm thấy tham số không được hỗ trợ -tor, thay vào đó hãy sử dụng -onion</translation>
     </message>
     <message>
-        <source>Fee (in CBRX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Phí (theo CBRX/Kb) sẽ thêm vào các giao dịch mà bạn gửi (ngầm định: %s)</translation>
+        <source>Fee (in YOCO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Phí (theo YOCO/Kb) sẽ thêm vào các giao dịch mà bạn gửi (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3907,8 +3907,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. cobrax Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. cobrax Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. yotoken Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. yotoken Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4159,8 +4159,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart cobrax Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại cobrax Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart yotoken Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại yotoken Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4219,8 +4219,8 @@ ví dụ: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Khoá KeePassHttp cho liên lạc mã hoá AES với KeePass</translation>
     </message>
     <message>
-        <source>Keep N CBRX anonymized (default: %u)</source>
-        <translation>Giữ N CBRX đã được ẩn danh (ngầm định: %u)</translation>
+        <source>Keep N YOCO anonymized (default: %u)</source>
+        <translation>Giữ N YOCO đã được ẩn danh (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

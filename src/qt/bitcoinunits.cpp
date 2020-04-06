@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The cobrax developers
+// Copyright (c) 2017-2018 The yotoken developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,18 +21,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(CBRX);
-    unitlist.append(mCBRX);
-    unitlist.append(uCBRX);
+    unitlist.append(YOCO);
+    unitlist.append(mYOCO);
+    unitlist.append(uYOCO);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case CBRX:
-    case mCBRX:
-    case uCBRX:
+    case YOCO:
+    case mYOCO:
+    case uYOCO:
         return true;
     default:
         return false;
@@ -42,12 +42,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case CBRX:
-        return QString("CBRX");
-    case mCBRX:
-        return QString("mCBRX");
-    case uCBRX:
-        return QString::fromUtf8("uCBRX");
+    case YOCO:
+        return QString("YOCO");
+    case mYOCO:
+        return QString("mYOCO");
+    case uYOCO:
+        return QString::fromUtf8("uYOCO");
     default:
         return QString("???");
     }
@@ -57,23 +57,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case CBRX:
-            return QString("CBRX");
-        case mCBRX:
-            return QString("mCBRX");
-        case uCBRX:
-            return QString::fromUtf8("μCBRX");
+        case YOCO:
+            return QString("YOCO");
+        case mYOCO:
+            return QString("mYOCO");
+        case uYOCO:
+            return QString::fromUtf8("μYOCO");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case CBRX:
-            return QString("tCBRX");
-        case mCBRX:
-            return QString("mtCBRX");
-        case uCBRX:
-            return QString::fromUtf8("μtCBRX");
+        case YOCO:
+            return QString("tYOCO");
+        case mYOCO:
+            return QString("mtYOCO");
+        case uYOCO:
+            return QString::fromUtf8("μtYOCO");
         default:
             return QString("???");
         }
@@ -84,23 +84,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case CBRX:
-            return QString("CBRX");
-        case mCBRX:
-            return QString("Milli-CBRX (1 / 1" THIN_SP_UTF8 "000)");
-        case uCBRX:
-            return QString("Micro-CBRX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case YOCO:
+            return QString("YOCO");
+        case mYOCO:
+            return QString("Milli-YOCO (1 / 1" THIN_SP_UTF8 "000)");
+        case uYOCO:
+            return QString("Micro-YOCO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case CBRX:
-            return QString("TestCBRXs");
-        case mCBRX:
-            return QString("Milli-TestCBRX (1 / 1" THIN_SP_UTF8 "000)");
-        case uCBRX:
-            return QString("Micro-TestCBRX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case YOCO:
+            return QString("TestYOCOs");
+        case mYOCO:
+            return QString("Milli-TestYOCO (1 / 1" THIN_SP_UTF8 "000)");
+        case uYOCO:
+            return QString("Micro-TestYOCO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -110,11 +110,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case CBRX:
+    case YOCO:
         return 100000000;
-    case mCBRX:
+    case mYOCO:
         return 100000;
-    case uCBRX:
+    case uYOCO:
         return 100;
     default:
         return 100000000;
@@ -124,11 +124,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case CBRX:
+    case YOCO:
         return 8;
-    case mCBRX:
+    case mYOCO:
         return 5;
-    case uCBRX:
+    case uYOCO:
         return 2;
     default:
         return 0;

@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between cobrax-cli and cobraxd)
- * of a given instance of the cobrax system.
+ * CBaseChainParams defines the base parameters (shared between yotoken-cli and yotokend)
+ * of a given instance of the yotoken system.
  */
 class CBaseChainParams
 {

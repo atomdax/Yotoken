@@ -11,7 +11,7 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via InstantX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantX
 
-This mechanism has been integrated into Bitcore-Node-cobrax which allows for notification to be broadcast through Insight API in one of two ways:
+This mechanism has been integrated into Bitcore-Node-yotoken which allows for notification to be broadcast through Insight API in one of two ways:
 * WebSocket: 
 * API: 
 
@@ -27,13 +27,13 @@ When a wallet InstantX transaction is successfully locked a shell command provid
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the cobrax Core daemon will launch using the following constant:
+By default, the yotoken Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_INSTANTX_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the cobrax Core daemon:
+This value can be overridden by passing the following argument to the yotoken Core daemon:
 
 ```
 -Instantxdepth=<n>

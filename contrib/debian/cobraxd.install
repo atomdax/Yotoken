@@ -1,2 +1,2 @@
-usr/local/bin/cobraxd usr/bin
-usr/local/bin/cobrax-cli usr/bin
+usr/local/bin/yotokend usr/bin
+usr/local/bin/yotoken-cli usr/bin

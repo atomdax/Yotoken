@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both cobraxd and cobrax-qt, to make it harder for attackers to
+ * for both yotokend and yotoken-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("cobrax Core");
+const std::string CLIENT_NAME("yotoken Core");
 
 /**
  * Client version number

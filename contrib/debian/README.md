@@ -1,20 +1,20 @@
 Debian
 ======
 
-This directory contains files used to package cobraxd/cobrax-qt
-for Debian-based Linux systems. If you compile cobraxd/cobrax-qt yourself, there are some useful files here.
+This directory contains files used to package yotokend/yotoken-qt
+for Debian-based Linux systems. If you compile yotokend/yotoken-qt yourself, there are some useful files here.
 
-## cobrax: URI support ##
+## yotoken: URI support ##
 
-cobrax-qt.desktop (Gnome / Open Desktop)
+yotoken-qt.desktop (Gnome / Open Desktop)
 
 To install:
 
-	sudo desktop-file-install cobrax-qt.desktop
+	sudo desktop-file-install yotoken-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your cobrax-qt binary to `/usr/bin`
-and the `../../share/pixmaps/cobrax128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your yotoken-qt binary to `/usr/bin`
+and the `../../share/pixmaps/yotoken128.png` to `/usr/share/pixmaps`
 
-cobrax-qt.protocol (KDE)
+yotoken-qt.protocol (KDE)

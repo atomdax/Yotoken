@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "cobrax"
-            VALUE "FileDescription",    "cobrax-cli (OSS RPC client for cobrax)"
+            VALUE "CompanyName",        "yotoken"
+            VALUE "FileDescription",    "yotoken-cli (OSS RPC client for yotoken)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "cobrax-cli"
+            VALUE "InternalName",       "yotoken-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "cobrax-cli.exe"
-            VALUE "ProductName",        "cobrax-cli"
+            VALUE "OriginalFilename",   "yotoken-cli.exe"
+            VALUE "ProductName",        "yotoken-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

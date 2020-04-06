@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The ALQO Core developers, 2017-@COPYRIGHT_YEAR@ The cobrax Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The ALQO Core developers, 2017-@COPYRIGHT_YEAR@ The yotoken Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>cobrax-Qt</string>
+  <string>yotoken-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.cobraxcoin.cobrax-Qt</string>
+  <string>org.yotokencoin.yotoken-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.cobraxcoin.cobraxPayment</string>
+      <string>org.yotokencoin.yotokenPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>cobrax</string>
+        <string>yotoken</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.cobraxcoin.paymentrequest</string>
+      <string>org.yotokencoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>cobrax payment request</string>
+      <string>yotoken payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-cobrax-payment-request</string>
+        <string>application/x-yotoken-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>cobraxpaymentrequest</string>
+          <string>yotokenpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.cobraxcoin.paymentrequest</string>
+        <string>org.yotokencoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

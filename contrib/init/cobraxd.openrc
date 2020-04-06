@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/cobrax/.cobrax" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/cobrax/.cobrax"
+if [ -d "/var/lib/yotoken/.yotoken" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/yotoken/.yotoken"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/cobraxd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/yotokend"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/cobrax/cobrax.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/cobraxd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/cobraxd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/yotoken/yotoken.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/yotokend}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/yotokend.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-cobrax}
-BITCOIND_GROUP=${BITCOIND_GROUP:-cobrax}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/cobraxd}
+BITCOIND_USER=${BITCOIND_USER:-yotoken}
+BITCOIND_GROUP=${BITCOIND_GROUP:-yotoken}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/yotokend}
 
-name="cobrax Core Daemon"
-description="cobrax crypto-currency p2p network daemon"
+name="yotoken Core Daemon"
+description="yotoken crypto-currency p2p network daemon"
 
-command="/usr/bin/cobraxd"
+command="/usr/bin/yotokend"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run cobraxd."
+		eerror "ERROR: You must set a secure rpcpassword to run yotokend."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"cobrax Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"yotoken Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

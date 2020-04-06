@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите cobrax адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
+        <source>These are your yotoken addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите yotoken адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите cobrax адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
+        <source>These are your yotoken addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите yotoken адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете на шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CBRX&lt;/b&gt;!</source>
-        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ CBRX МОНЕТИ!&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YOCO&lt;/b&gt;!</source>
+        <translation>Внимание: Ако шифрирате вашия портфейл и загубите паролата си,  &lt;b&gt;ЩЕ ЗАГУБИТЕ ВСИЧКИ YOCO МОНЕТИ!&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>cobrax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your cobraxs from being stolen by malware infecting your computer.</source>
-        <translation>cobrax ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
+        <source>yotoken will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yotokens from being stolen by malware infecting your computer.</source>
+        <translation>yotoken ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Ядро</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a cobrax address</source>
-        <translation>Изпращане на монети към cobrax адрес</translation>
+        <source>Send coins to a yotoken address</source>
+        <translation>Изпращане на монети към yotoken адрес</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and cobrax:URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и cobrax:URIs)</translation>
+        <source>Request payments (generates QR codes and yotoken:URIs)</source>
+        <translation>Заявка за плащане (генерира QR кодове и yotoken:URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About cobrax Core</source>
-        <translation>&amp;За cobrax ядрото</translation>
+        <source>&amp;About yotoken Core</source>
+        <translation>&amp;За yotoken ядрото</translation>
     </message>
     <message>
-        <source>Show information about cobrax Core</source>
-        <translation>Покаци информация за cobrax Core</translation>
+        <source>Show information about yotoken Core</source>
+        <translation>Покаци информация за yotoken Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for cobrax</source>
-        <translation>Промяна на опции за конфигуриране на cobrax</translation>
+        <source>Modify configuration options for yotoken</source>
+        <translation>Промяна на опции за конфигуриране на yotoken</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your cobrax addresses to prove you own them</source>
-        <translation>Подпиши съобщения с твоите cobrax адреси за да докажеш че ги притежаваш</translation>
+        <source>Sign messages with your yotoken addresses to prove you own them</source>
+        <translation>Подпиши съобщения с твоите yotoken адреси за да докажеш че ги притежаваш</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified cobrax addresses</source>
-        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен cobrax адрес</translation>
+        <source>Verify messages to ensure they were signed with specified yotoken addresses</source>
+        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен yotoken адрес</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a cobrax:URI or payment request</source>
-        <translation>Отвори cobrax:URI или заявка за плащане</translation>
+        <source>Open a yotoken:URI or payment request</source>
+        <translation>Отвори yotoken:URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>cobrax Core client</source>
-        <translation>cobrax Core клиент</translation>
+        <source>yotoken Core client</source>
+        <translation>yotoken Core клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the cobrax Core help message to get a list with possible cobrax command-line options</source>
-        <translation>Покажи съобщението за помощ на cobrax ядрото за да получиш списък на възможните опции за командния ред</translation>
+        <source>Show the yotoken Core help message to get a list with possible yotoken command-line options</source>
+        <translation>Покажи съобщението за помощ на yotoken ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to cobrax network</source>
-        <translation><numerusform>%n активни връзки към cobrax мрежата</numerusform><numerusform>%n активни връзки към cobrax мрежата</numerusform></translation>
+        <source>%n active connection(s) to yotoken network</source>
+        <translation><numerusform>%n активни връзки към yotoken мрежата</numerusform><numerusform>%n активни връзки към yotoken мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -864,28 +864,28 @@ Address: %4
         <translation>Моля изберете ниво на сигурност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 CBRX</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Използване на 2 различни masternodes за смесване на средства до 1000 YOCO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 CBRX</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Използване на 8 различни masternodes за смесване на средства до 1000 YOCO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 CBRX</translation>
+        <translation>Използване на 16 различни masternodes за смесване на средства до 1000 YOCO</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CBRX to anonymize 1000 CBRX</source>
-        <translation>Това е най-бързият вариант, анонимизиране на 1000 CBRX ще ви струва около 0.025 CBRX</translation>
+        <source>This option is the quickest and will cost about ~0.025 YOCO to anonymize 1000 YOCO</source>
+        <translation>Това е най-бързият вариант, анонимизиране на 1000 YOCO ще ви струва около 0.025 YOCO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CBRX to anonymize 1000 CBRX</source>
-        <translation>Това е средно бърз вариант, анонимизиране на 1000 CBRX ще ви струва около 0.05 CBRX</translation>
+        <source>This option is moderately fast and will cost about 0.05 YOCO to anonymize 1000 YOCO</source>
+        <translation>Това е средно бърз вариант, анонимизиране на 1000 YOCO ще ви струва около 0.05 YOCO</translation>
     </message>
     <message>
-        <source>0.1 CBRX per 1000 CBRX you anonymize.</source>
-        <translation>0.1 CBRX за всеки 1000 CBRX които анонимизирате.</translation>
+        <source>0.1 YOCO per 1000 YOCO you anonymize.</source>
+        <translation>0.1 YOCO за всеки 1000 YOCO които анонимизирате.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -896,16 +896,16 @@ Address: %4
         <translation>Настройка на Obfuscate </translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на cobrax.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на yotoken.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на cobrax.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на yotoken.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на cobrax.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на yotoken.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid cobrax address.</source>
-        <translation>Въведеният адрес "%1" не е валиден cobrax адрес.</translation>
+        <source>The entered address "%1" is not a valid yotoken address.</source>
+        <translation>Въведеният адрес "%1" не е валиден yotoken адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax ядро</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About cobrax Core</source>
-        <translation>За cobrax ядрото</translation>
+        <source>About yotoken Core</source>
+        <translation>За yotoken ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to cobrax Core.</source>
-        <translation>Добре дошли в ядрото на cobrax.</translation>
+        <source>Welcome to yotoken Core.</source>
+        <translation>Добре дошли в ядрото на yotoken.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where cobrax Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде cobrax да съхранява своята информация.</translation>
+        <source>As this is the first time the program is launched, you can choose where yotoken Core will store its data.</source>
+        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде yotoken да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>cobrax Core will download and store a copy of the cobrax block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>cobrax ще свали и съхрани копие на cobrax регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <source>yotoken Core will download and store a copy of the yotoken block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>yotoken ще свали и съхрани копие на yotoken регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax ядро</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start cobrax after logging in to the system.</source>
-        <translation>Автоматично стартиране на cobrax след влизане в системата.</translation>
+        <source>Automatically start yotoken after logging in to the system.</source>
+        <translation>Автоматично стартиране на yotoken след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start cobrax on system login</source>
-        <translation>&amp;Стартирне на cobrax при влизане в системата.</translation>
+        <source>&amp;Start yotoken on system login</source>
+        <translation>&amp;Стартирне на yotoken при влизане в системата.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1147,15 +1147,15 @@ Address: %4
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Използвани cobrax цикли</translation>
+        <translation>Използвани yotoken цикли</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
         <translation>Тази сума действа като праг, за да се изключи Obfuscate, когато той е достигнат.</translation>
     </message>
     <message>
-        <source>Amount of cobrax to keep anonymized</source>
-        <translation>Постоянно поддържано количество анонимни cobrax монети </translation>
+        <source>Amount of yotoken to keep anonymized</source>
+        <translation>Постоянно поддържано количество анонимни yotoken монети </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the cobrax network through a SOCKS5 proxy.</source>
-        <translation>Свързване с мрежата на cobrax чрез SOCKS5 прокси.</translation>
+        <source>Connect to the yotoken network through a SOCKS5 proxy.</source>
+        <translation>Свързване с мрежата на yotoken чрез SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>Automatically open the cobrax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за cobrax клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the yotoken client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за yotoken клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,14 +1258,14 @@ Address: %4
         <translation>Език на потребителски &amp;изглед :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting cobrax.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на cobrax.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting yotoken.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на yotoken.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</source>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1347,8 +1347,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the cobrax network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с cobrax мрежата, но този процес все още не е завършен.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the yotoken network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с yotoken мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1431,8 +1431,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Количество и цикли:</translation>
     </message>
     <message>
-        <source>0 CBRX / 0 Rounds</source>
-        <translation>0 CBRX / 0 Цикъла</translation>
+        <source>0 YOCO / 0 Rounds</source>
+        <translation>0 YOCO / 0 Цикъла</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1568,8 +1568,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start cobrax: click-to-pay handler</source>
-        <translation>Не може да стартира cobrax: кликни за плащане на притежателя</translation>
+        <source>Cannot start yotoken: click-to-pay handler</source>
+        <translation>Не може да стартира yotoken: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid cobrax address or malformed URI parameters.</source>
-        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен cobrax адрес или неправилно зададени URI параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid yotoken address or malformed URI parameters.</source>
+        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен yotoken адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a cobrax address (e.g. %1)</source>
-        <translation>Въведете cobrax адрес (напр.%1)</translation>
+        <source>Enter a yotoken address (e.g. %1)</source>
+        <translation>Въведете yotoken адрес (напр.%1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Брой връзки</translation>
     </message>
     <message>
-        <source>Open the cobrax debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на cobrax от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the yotoken debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на yotoken от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Изход:</translation>
     </message>
     <message>
-        <source>Welcome to the cobrax RPC console.</source>
-        <translation>Добре дошли в cobrax RPC (Remote Procedure Call) конзолата.</translation>
+        <source>Welcome to the yotoken RPC console.</source>
+        <translation>Добре дошли в yotoken RPC (Remote Procedure Call) конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на cobrax.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на yotoken.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на cobrax.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на yotoken.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,8 +2292,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for cobrax transactions than the network can process.</source>
-        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на cobrax транзакции отколкото мрежата може да обработи.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for yotoken transactions than the network can process.</source>
+        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на yotoken транзакции отколкото мрежата може да обработи.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Плати само минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid cobrax address</source>
-        <translation>Внимание: Невалиден cobrax адрес</translation>
+        <source>Warning: Invalid yotoken address</source>
+        <translation>Внимание: Невалиден yotoken адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The cobrax address to send the payment to</source>
-        <translation>cobrax адресът да изпрати плащането към </translation>
+        <source>The yotoken address to send the payment to</source>
+        <translation>yotoken адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the cobrax:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the cobrax network.</source>
-        <translation>Съобщението което беше прикрепено към cobrax:URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през cobrax мрежата.</translation>
+        <source>A message that was attached to the yotoken:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the yotoken network.</source>
+        <translation>Съобщението което беше прикрепено към yotoken:URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през yotoken мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>cobrax Core is shutting down...</source>
-        <translation>cobrax ядрото се изключва...</translation>
+        <source>yotoken Core is shutting down...</source>
+        <translation>yotoken ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
     <message>
-        <source>The cobrax address to sign the message with</source>
-        <translation>cobrax адресът да подпише съобщението</translation>
+        <source>The yotoken address to sign the message with</source>
+        <translation>yotoken адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this cobrax address</source>
-        <translation>Подпиши съобщението за да докажеш че притежаваш този cobrax адрес</translation>
+        <source>Sign the message to prove you own this yotoken address</source>
+        <translation>Подпиши съобщението за да докажеш че притежаваш този yotoken адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Въведете подписания адрес, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за да избегнете риска от злонамерна външа намеса.</translation>
     </message>
     <message>
-        <source>The cobrax address the message was signed with</source>
-        <translation>cobrax адресът ,с който е подписано съобщението</translation>
+        <source>The yotoken address the message was signed with</source>
+        <translation>yotoken адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified cobrax address</source>
-        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен cobrax адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified yotoken address</source>
+        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен yotoken адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Ядро</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The cobrax Core developers</source>
-        <translation>Водещи cobrax разработчици</translation>
+        <source>The yotoken Core developers</source>
+        <translation>Водещи yotoken разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3276,8 +3276,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Изпращане</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 CBRX.</source>
-        <translation>InstantX не поддържа изпращане на толкова големи суми. Транзакциите са ограничени до %1 CBRX.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 YOCO.</source>
+        <translation>InstantX не поддържа изпращане на толкова големи суми. Транзакциите са ограничени до %1 YOCO.</translation>
     </message>
 </context>
 <context>
@@ -3320,14 +3320,14 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     </message>
 </context>
 <context>
-    <name>cobrax-core</name>
+    <name>yotoken-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. cobrax Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. cobrax ядрото вече работи.</translation>
+        <source>Cannot obtain a lock on data directory %s. yotoken Core is probably already running.</source>
+        <translation>Не може да се заключи дата директорията %s. yotoken ядрото вече работи.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,16 +3382,16 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. cobrax Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. cobrax ядрото най-вероятно вече работи.</translation>
+        <source>Unable to bind to %s on this computer. yotoken Core is probably already running.</source>
+        <translation>Не може да се свърже с %s на този компютър. yotoken ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
         <translation>Не са намерени достатъчно Obfuscate деноминирани средства за тази транзакция.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Не са намерени достатъчно Obfuscate неденоминирани средства за тази транзакция, които не са равни на 1000 CBRX.</translation>
+        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Не са намерени достатъчно Obfuscate неденоминирани средства за тази транзакция, които не са равни на 1000 YOCO.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Изтриване на всички транзакции на портфейла и  възстановява само тези части на блок веригата чрез -rescan при стартиране</translation>
     </message>
     <message>
-        <source>Disable all cobrax specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключване на всички специфични cobrax функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
+        <source>Disable all yotoken specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключване на всички специфични yotoken функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Грешка: Открит е неподдържан аргумент -socks .настройка SOCKS версия вече не е възможна, само SOCKS5 прокси се поддържа.</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в CBRX/Kb) по-малки от това се считат за нулева такса за прилагане (по подразбиране: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в YOCO/Kb) по-малки от това се считат за нулева такса за прилагане (по подразбиране: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в CBRX/Kb) по-малки от това се считат за нулева такса при създаване на транзакция (по подразбиране: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в YOCO/Kb) по-малки от това се считат за нулева такса при създаване на транзакция (по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3710,23 +3710,23 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Този продукт включва софтуер, разработен от проекта OpenSSL за използване в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографски софтуер, написан от Eric Young и UPnP софтуер, написан от Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use cobraxd, or the -server option to cobrax-qt, you must set an rpcpassword in the configuration file:
+        <source>To use yotokend, or the -server option to yotoken-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cobraxrpc
+rpcuser=yotokenrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "yotoken Alert" admin@foo.com
 </source>
-        <translation>За използване на cobraxd, или the -server опция към cobrax-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=cobraxrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com 
+        <translation>За използване на yotokend, или the -server опция към yotoken-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=yotokenrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "yotoken Alert" admin@foo.com 
 </translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 CBRX.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Не са намерени достатъчно  средства за тази транзакция, които не са равни на 1000 YOCO.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3737,8 +3737,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong cobrax Core will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, cobrax Core няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong yotoken Core will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, yotoken Core няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3795,8 +3795,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Запазени права (C) 2015-%i ALQO Core разработчиците</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The cobrax Core Developers</source>
-        <translation>Запазени права (C) 2017-%i cobrax Core разработчиците</translation>
+        <source>Copyright (C) 2017-%i The yotoken Core Developers</source>
+        <translation>Запазени права (C) 2017-%i yotoken Core разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3827,8 +3827,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of cobrax Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на cobrax Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of yotoken Core</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на yotoken Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3843,8 +3843,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Грешка:Открит е неподдържан аргумент -tor, моля използвай -onion.</translation>
     </message>
     <message>
-        <source>Fee (in CBRX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Такси (в CBRX/Kb) добавена към направената транзакция(по подразбиране: %s)</translation>
+        <source>Fee (in YOCO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Такси (в YOCO/Kb) добавена към направената транзакция(по подразбиране: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3899,8 +3899,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. cobrax Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. cobrax ядрото се изключва.</translation>
+        <source>Initialization sanity check failed. yotoken Core is shutting down.</source>
+        <translation>Инициализационната проверка не успешна. yotoken ядрото се изключва.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4151,8 +4151,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart cobrax Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте cobrax за да завършите</translation>
+        <source>Wallet needed to be rewritten: restart yotoken Core to complete</source>
+        <translation>Портфейлът трябва да бъде презаписан: рестартирайте yotoken за да завършите</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4211,8 +4211,8 @@ for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
         <translation>KeePassHttp ключ за  AES криптирана връзка с KeePass</translation>
     </message>
     <message>
-        <source>Keep N CBRX anonymized (default: %u)</source>
-        <translation>Поддържай N cobrax анонимизирани (по подразбиране: %u)</translation>
+        <source>Keep N YOCO anonymized (default: %u)</source>
+        <translation>Поддържай N yotoken анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

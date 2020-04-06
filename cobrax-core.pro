@@ -1303,7 +1303,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/cobrax-config.h \
+           src/config/yotoken-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -13845,7 +13845,7 @@ HEADERS += src/activemasternode.h \
            depends/x86_64-pc-linux-gnu/include/QtCore/QTranslator \
            depends/x86_64-pc-linux-gnu/include/QtCore/QtPlugin \
            depends/x86_64-pc-linux-gnu/include/QtCore/QTextCodec \
-           src/qt/cobrax.moc \
+           src/qt/yotoken.moc \
            depends/x86_64-pc-linux-gnu/include/QtTest/QTest \
            depends/x86_64-pc-linux-gnu/include/QtGui/QWindow \
            depends/x86_64-pc-linux-gnu/include/QtCore/QMargins \
@@ -13959,9 +13959,9 @@ SOURCES += src/activemasternode.cpp \
            src/wallet.cpp \
            src/wallet_ismine.cpp \
            src/walletdb.cpp \
-           src/cobrax-cli.cpp \
-           src/cobrax-tx.cpp \
-           src/cobraxd.cpp \
+           src/yotoken-cli.cpp \
+           src/yotoken-tx.cpp \
+           src/yotokend.cpp \
            src/compat/glibc_compat.cpp \
            src/compat/glibc_sanity.cpp \
            src/compat/glibcxx_compat.cpp \
@@ -14047,8 +14047,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/walletmodeltransaction.cpp \
            src/qt/walletview.cpp \
            src/qt/winshutdownmonitor.cpp \
-           src/qt/cobrax.cpp \
-           src/qt/cobraxstrings.cpp \
+           src/qt/yotoken.cpp \
+           src/qt/yotokenstrings.cpp \
            src/script/bitcoinconsensus.cpp \
            src/script/interpreter.cpp \
            src/script/script.cpp \
@@ -14091,7 +14091,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_cobrax.cpp \
+           src/test/test_yotoken.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -14190,20 +14190,20 @@ SOURCES += src/activemasternode.cpp \
            depends/x86_64-pc-linux-gnu/include/X11/Xtrans/Xtranslcl.c \
            depends/x86_64-pc-linux-gnu/include/X11/Xtrans/Xtranssock.c \
            depends/x86_64-pc-linux-gnu/include/X11/Xtrans/Xtransutil.c
-RESOURCES += src/qt/cobrax.qrc src/qt/cobrax_locale.qrc
-TRANSLATIONS += src/qt/locale/cobrax_bg.ts \
-                src/qt/locale/cobrax_de.ts \
-                src/qt/locale/cobrax_en.ts \
-                src/qt/locale/cobrax_es.ts \
-                src/qt/locale/cobrax_fi.ts \
-                src/qt/locale/cobrax_fr.ts \
-                src/qt/locale/cobrax_it.ts \
-                src/qt/locale/cobrax_ja.ts \
-                src/qt/locale/cobrax_pl.ts \
-                src/qt/locale/cobrax_pt.ts \
-                src/qt/locale/cobrax_ru.ts \
-                src/qt/locale/cobrax_sk.ts \
-                src/qt/locale/cobrax_sv.ts \
-                src/qt/locale/cobrax_vi.ts \
-                src/qt/locale/cobrax_zh_CN.ts \
-                src/qt/locale/cobrax_zh_TW.ts
+RESOURCES += src/qt/yotoken.qrc src/qt/yotoken_locale.qrc
+TRANSLATIONS += src/qt/locale/yotoken_bg.ts \
+                src/qt/locale/yotoken_de.ts \
+                src/qt/locale/yotoken_en.ts \
+                src/qt/locale/yotoken_es.ts \
+                src/qt/locale/yotoken_fi.ts \
+                src/qt/locale/yotoken_fr.ts \
+                src/qt/locale/yotoken_it.ts \
+                src/qt/locale/yotoken_ja.ts \
+                src/qt/locale/yotoken_pl.ts \
+                src/qt/locale/yotoken_pt.ts \
+                src/qt/locale/yotoken_ru.ts \
+                src/qt/locale/yotoken_sk.ts \
+                src/qt/locale/yotoken_sv.ts \
+                src/qt/locale/yotoken_vi.ts \
+                src/qt/locale/yotoken_zh_CN.ts \
+                src/qt/locale/yotoken_zh_TW.ts

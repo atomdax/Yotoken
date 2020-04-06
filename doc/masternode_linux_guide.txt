@@ -31,43 +31,43 @@ sudo apt-get install libzmq3-dev (provides ZMQ API 4.x)
 
 Now lets start:
 
-Download cobrax  github source:
+Download yotoken  github source:
 
 
-git clone https://github.com/cobrax/cobrax.git
+git clone https://github.com/yotoken/yotoken.git
 
 Now we are going to compile the Client:
 
-chmod a+x+w -R cobrax/
-cd cobrax
+chmod a+x+w -R yotoken/
+cd yotoken
 ./autogen.sh
 ./configure
 make
 make install
 
-Now lets run the cobrax daemon:
+Now lets run the yotoken daemon:
 
-cobraxd &
+yotokend &
 press enter
 
 
 We need to create our masternode Private Key.
 
-cobrax-cli masternode genkey
+yotoken-cli masternode genkey
 
 copy the generated code to a text file
 
-Now we need our cobrax address:
+Now we need our yotoken address:
 
-cobrax-cli getaccountaddress 0
+yotoken-cli getaccountaddress 0
 
 copy the generated address to a text file
 
-Send 1000 cobrax to "address 0"
+Send 1000 yotoken to "address 0"
 
-go to cobrax.conf in
+go to yotoken.conf in
 
-./root/.cobrax/
+./root/.yotoken/
 
 Paste this (dont forget to set rpcuser and password)
 
@@ -89,7 +89,7 @@ close config file.
 
 Now open 
 
-in /root/.cobrax/
+in /root/.yotoken/
 
 masternode.conf
 
@@ -102,7 +102,7 @@ mn1 127.0.0.1:23777 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84
 set up your ip, masternode privkey, and TXID (of the 1000 EMN)
 
 
-now shutdown cobraxd process and restart it
+now shutdown yotokend process and restart it
 
 lets list all proccesses:
 
@@ -113,19 +113,19 @@ find the proccess number
 
 kill (process number)
 
-now restart cobraxd
+now restart yotokend
 
 and lets start it again:
 
-cobraxd &
+yotokend &
 
 
 Now let check our masternode status:
 
-cobrax-cli masternode status
+yotoken-cli masternode status
 
 it will display if your wallet is masternode capable. if it does, just use command:  
 
 masternode start
 
-wait 10 seconds and use the command : cobrax-cli masternode list  (it should display a list of masternodes, check that your masternode is on the list).
+wait 10 seconds and use the command : yotoken-cli masternode list  (it should display a list of masternodes, check that your masternode is on the list).

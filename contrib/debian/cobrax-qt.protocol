@@ -1,6 +1,6 @@
 [Protocol]
-exec=cobrax-qt '%u'
-protocol=cobrax
+exec=yotoken-qt '%u'
+protocol=yotoken
 input=none
 output=none
 helper=true

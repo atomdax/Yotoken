@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie cobrax überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie yotoken überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie cobrax empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie yotoken empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre cobrax-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie cobrax überweisen.</translation>
+        <source>These are your yotoken addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre yotoken-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie yotoken überweisen.</translation>
     </message>
     <message>
-        <source>These are your cobrax addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre cobrax-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your yotoken addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre yotoken-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CBRX&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre cobrax verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YOCO&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre yotoken verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Wallet verschlüsselt</translation>
     </message>
     <message>
-        <source>cobrax will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your cobraxs from being stolen by malware infecting your computer.</source>
-        <translation>cobrax wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer cobrax durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>yotoken will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yotokens from being stolen by malware infecting your computer.</source>
+        <translation>yotoken wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Wallet-Verschlüsselung nicht vollständig vor Diebstahl ihrer yotoken durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Überweisen</translation>
     </message>
     <message>
-        <source>Send coins to a cobrax address</source>
-        <translation>cobrax an eine cobrax-Adresse überweisen</translation>
+        <source>Send coins to a yotoken address</source>
+        <translation>yotoken an eine yotoken-Adresse überweisen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and cobrax:URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und cobrax:URIs)</translation>
+        <source>Request payments (generates QR codes and yotoken:URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und yotoken:URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>&amp;About cobrax Core</source>
-        <translation>&amp;Über cobrax Core</translation>
+        <source>&amp;About yotoken Core</source>
+        <translation>&amp;Über yotoken Core</translation>
     </message>
     <message>
-        <source>Show information about cobrax Core</source>
-        <translation>Informationen über cobrax Core anzeigen</translation>
+        <source>Show information about yotoken Core</source>
+        <translation>Informationen über yotoken Core anzeigen</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,7 +303,7 @@
         <translation>&amp;Konfiguration...</translation>
     </message>
     <message>
-        <source>Modify configuration options for cobrax</source>
+        <source>Modify configuration options for yotoken</source>
         <translation>Die Konfiguration des Clients bearbeiten</translation>
     </message>
     <message>
@@ -355,16 +355,16 @@
         <translation>Nachricht s&amp;ignieren...</translation>
     </message>
     <message>
-        <source>Sign messages with your cobrax addresses to prove you own them</source>
-        <translation>Nachrichten signieren, um den Besitz ihrer cobrax-Adressen zu beweisen</translation>
+        <source>Sign messages with your yotoken addresses to prove you own them</source>
+        <translation>Nachrichten signieren, um den Besitz ihrer yotoken-Adressen zu beweisen</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Nachricht &amp;verifizieren...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified cobrax addresses</source>
-        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen cobrax-Adressen signiert wurden</translation>
+        <source>Verify messages to ensure they were signed with specified yotoken addresses</source>
+        <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen yotoken-Adressen signiert wurden</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a cobrax:URI or payment request</source>
-        <translation>Eine cobrax:URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a yotoken:URI or payment request</source>
+        <translation>Eine yotoken:URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>cobrax Core client</source>
-        <translation>cobrax Core Client</translation>
+        <source>yotoken Core client</source>
+        <translation>yotoken Core Client</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
     </message>
     <message>
-        <source>Show the cobrax Core help message to get a list with possible cobrax command-line options</source>
-        <translation>Zeige den "cobrax Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
+        <source>Show the yotoken Core help message to get a list with possible yotoken command-line options</source>
+        <translation>Zeige den "yotoken Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to cobrax network</source>
-        <translation><numerusform>%n aktive Verbindung zum cobrax-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum cobrax-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to yotoken network</source>
+        <translation><numerusform>%n aktive Verbindung zum yotoken-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum yotoken-Netzwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -863,28 +863,28 @@ Adresse: %4</translation>
         <translation>Bitten wählen Sie eine Datenschutz-Stufe.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Benutze 2 separate Masternodes um bis zu 1000 CBRX zu mixen</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Benutze 2 separate Masternodes um bis zu 1000 YOCO zu mixen</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 CBRX</source>
-        <translation>Benutze 8 separate Masternodes um bis zu 1000 CBRX zu mixen</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 YOCO</source>
+        <translation>Benutze 8 separate Masternodes um bis zu 1000 YOCO zu mixen</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Benutze 16 separate Masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CBRX to anonymize 1000 CBRX</source>
-        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 CBRX, um 1000 CBRX zu anonymisieren</translation>
+        <source>This option is the quickest and will cost about ~0.025 YOCO to anonymize 1000 YOCO</source>
+        <translation>Diese Option ist am Schnellsten und kostet ungefähr 0,025 YOCO, um 1000 YOCO zu anonymisieren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CBRX to anonymize 1000 CBRX</source>
-        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 CBRX, um 1000 CBRX zu anonymisieren</translation>
+        <source>This option is moderately fast and will cost about 0.05 YOCO to anonymize 1000 YOCO</source>
+        <translation>Diese Option ist einigermaßen schnell und kostet ungefähr 0,05 YOCO, um 1000 YOCO zu anonymisieren</translation>
     </message>
     <message>
-        <source>0.1 CBRX per 1000 CBRX you anonymize.</source>
-        <translation>0,1 CBRX pro 1000 zu anonymisierende cobrax.</translation>
+        <source>0.1 YOCO per 1000 YOCO you anonymize.</source>
+        <translation>0,1 YOCO pro 1000 zu anonymisierende yotoken.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -895,16 +895,16 @@ Adresse: %4</translation>
         <translation>Obfuscate-Konfiguration</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von cobrax ändern.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate wurde erfolgreich auf einfachen Datenschutz (%1 und 2 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von yotoken ändern.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von cobrax ändern.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate wurde erfolgreich auf hohen Datenschutz (%1 und 8 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von yotoken ändern.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening cobrax's configuration screen.</source>
-        <translation>Obfuscate wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von cobrax ändern.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening yotoken's configuration screen.</source>
+        <translation>Obfuscate wurde erfolgreich auf maximalen Datenschutz (%1 und 16 Runden) gesetzt. Sie können dies jederzeit im Konfigurationsfenster von yotoken ändern.</translation>
     </message>
 </context>
 <context>
@@ -919,7 +919,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Bezeichnung, die dem Adresslisteneintrag zugeorCBRX ist.</translation>
+        <translation>Bezeichnung, die dem Adresslisteneintrag zugeorYOCO ist.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -927,7 +927,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adresse, die dem Adresslisteneintrag zugeorCBRX ist. Diese kann nur bei Zahlungsadressen verändert werden.</translation>
+        <translation>Adresse, die dem Adresslisteneintrag zugeorYOCO ist. Diese kann nur bei Zahlungsadressen verändert werden.</translation>
     </message>
     <message>
         <source>New receiving address</source>
@@ -946,8 +946,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid cobrax address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige cobrax-Adresse.</translation>
+        <source>The entered address "%1" is not a valid yotoken address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige yotoken-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -988,8 +988,8 @@ Adresse: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresse: %4</translation>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About cobrax Core</source>
-        <translation>Über cobrax Core</translation>
+        <source>About yotoken Core</source>
+        <translation>Über yotoken Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to cobrax Core.</source>
-        <translation>Willkommen zu cobrax Core.</translation>
+        <source>Welcome to yotoken Core.</source>
+        <translation>Willkommen zu yotoken Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where cobrax Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie cobrax Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where yotoken Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie yotoken Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>cobrax Core will download and store a copy of the cobrax block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>cobrax Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>yotoken Core will download and store a copy of the yotoken block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>yotoken Core wird jetzt die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Das Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1121,12 +1121,12 @@ Adresse: %4</translation>
         <translation>&amp;Allgemein</translation>
     </message>
     <message>
-        <source>Automatically start cobrax after logging in to the system.</source>
-        <translation>cobrax nach der Anmeldung am System automatisch starten.</translation>
+        <source>Automatically start yotoken after logging in to the system.</source>
+        <translation>yotoken nach der Anmeldung am System automatisch starten.</translation>
     </message>
     <message>
-        <source>&amp;Start cobrax on system login</source>
-        <translation>&amp;Starte cobrax automatisch nach Systemanmeldung</translation>
+        <source>&amp;Start yotoken on system login</source>
+        <translation>&amp;Starte yotoken automatisch nach Systemanmeldung</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresse: %4</translation>
         <translation>Beim Erreichen dieses Betrages wird Obfuscate ausgeschaltet.</translation>
     </message>
     <message>
-        <source>Amount of cobrax to keep anonymized</source>
-        <translation>Anzahl anonymisierter cobrax</translation>
+        <source>Amount of yotoken to keep anonymized</source>
+        <translation>Anzahl anonymisierter yotoken</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresse: %4</translation>
         <translation>Eingehende Verbindungen erlauben</translation>
     </message>
     <message>
-        <source>Connect to the cobrax network through a SOCKS5 proxy.</source>
-        <translation>Über einen SOCKS5-Proxy mit dem cobrax-Netzwerk verbinden.</translation>
+        <source>Connect to the yotoken network through a SOCKS5 proxy.</source>
+        <translation>Über einen SOCKS5-Proxy mit dem yotoken-Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresse: %4</translation>
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>Automatically open the cobrax client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den cobrax-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the yotoken client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den yotoken-Clientport auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,14 +1257,14 @@ Adresse: %4</translation>
         <translation>&amp;Sprache der Benutzeroberfläche:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting cobrax.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von cobrax aktiv.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting yotoken.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von yotoken aktiv.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</source>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</source>
         <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
+https://www.transifex.com/yotokencoin/yotoken-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1276,7 +1276,7 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von cobrax angezeigt werden soll.</translation>
+        <translation>Wählen Sie die standardmäßige Untereinheit, die in der Benutzeroberfläche und beim Überweisen von yotoken angezeigt werden soll.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1346,8 +1346,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the cobrax network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum cobrax-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the yotoken network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Wallet wird automatisch synchronisiert, nachdem eine Verbindung zum yotoken-Netzwerk hergestellt wurde. Dieser Prozess ist jedoch derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1430,8 +1430,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Betrag und Runden:</translation>
     </message>
     <message>
-        <source>0 CBRX / 0 Rounds</source>
-        <translation>0 CBRX / 0 Runden</translation>
+        <source>0 YOCO / 0 Rounds</source>
+        <translation>0 YOCO / 0 Runden</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1567,8 +1567,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start cobrax: click-to-pay handler</source>
-        <translation>cobrax kann nicht gestartet werden: click-to-pay handler</translation>
+        <source>Cannot start yotoken: click-to-pay handler</source>
+        <translation>yotoken kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Ungültige Zahlungsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid cobrax address or malformed URI parameters.</source>
-        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige cobrax-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
+        <source>URI cannot be parsed! This can be caused by an invalid yotoken address or malformed URI parameters.</source>
+        <translation>URI konnte nicht erfolgreich verarbeitet werden. Höchstwahrscheinlich ist dies entweder keine gültige yotoken-Adresse oder die URI-Parameter sind falsch gesetzt. </translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a cobrax address (e.g. %1)</source>
-        <translation>cobrax-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a yotoken address (e.g. %1)</source>
+        <translation>yotoken-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Anzahl Verbindungen</translation>
     </message>
     <message>
-        <source>Open the cobrax debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffnet die cobrax-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the yotoken debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffnet die yotoken-Debugprotokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>ausgehend:</translation>
     </message>
     <message>
-        <source>Welcome to the cobrax RPC console.</source>
-        <translation>Willkommen in der cobrax RPC-Console.</translation>
+        <source>Welcome to the yotoken RPC console.</source>
+        <translation>Willkommen in der yotoken RPC-Console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Vorhandene Empfangsadresse &amp;wiederverwenden (nicht empfohlen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das cobrax-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird. Hinweis: Diese Nachricht wird nicht mit der Zahlung über das yotoken-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,11 +2043,11 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Eine optionale Bezeichnung, die der neuen Empfangsadresse zugeorCBRX wird.</translation>
+        <translation>Eine optionale Bezeichnung, die der neuen Empfangsadresse zugeorYOCO wird.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the cobrax network.</source>
-        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das cobrax-Netzwerk gesendet.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the yotoken network.</source>
+        <translation>Eine optionale Nachricht, die an die Zahlungsanforderung angehängt wird. Sie wird angezeigt, wenn die Anforderung geöffnet wird.&lt;br&gt; Hinweis: Diese Nachricht wird nicht mit der Zahlung über das yotoken-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2200,7 +2200,7 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>cobrax überweisen</translation>
+        <translation>yotoken überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2291,7 +2291,7 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
         <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for cobrax transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for yotoken transactions than the network can process.</source>
         <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
     </message>
     <message>
@@ -2485,7 +2485,7 @@ https://www.transifex.com/cobraxcoin/cobrax-wallet-translations/</translation>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Die Transaktion wurde abgelehnt! 
-Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die cobrax dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
+Dies kann passieren, wenn einige yotoken aus ihrer Wallet bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie ihrer wallet.dat nutzten und die yotoken dort ausgegeben haben. Diese Ausgaben sind in diesem Fall in der derzeit aktiven Wallet nicht vermerkt.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
@@ -2496,8 +2496,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Nur die minimalen Gebühren von %1 zahlen</translation>
     </message>
     <message>
-        <source>Warning: Invalid cobrax address</source>
-        <translation>Warnung: ungültige cobrax-Adresse</translation>
+        <source>Warning: Invalid yotoken address</source>
+        <translation>Warnung: ungültige yotoken-Adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The cobrax address to send the payment to</source>
-        <translation>cobrax-Adresse, an die überwiesen werden soll</translation>
+        <source>The yotoken address to send the payment to</source>
+        <translation>yotoken-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the cobrax:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the cobrax network.</source>
-        <translation>Eine an die cobrax:URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das cobrax-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the yotoken:URI which will be stored with the transaction for your reference. Note: This message will not be sent over the yotoken network.</source>
+        <translation>Eine an die yotoken:URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das yotoken-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>cobrax Core is shutting down...</source>
-        <translation>cobrax-Core wird herunter gefahren...</translation>
+        <source>yotoken Core is shutting down...</source>
+        <translation>yotoken-Core wird herunter gefahren...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Sie können Nachrichten mit ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishingangriffen in Acht. Signieren Sie nur Nachrichten, mit denen Sie vollständig einverstanden sind.</translation>
     </message>
     <message>
-        <source>The cobrax address to sign the message with</source>
-        <translation>cobrax-Adresse, mit der die Nachricht signiert werden soll</translation>
+        <source>The yotoken address to sign the message with</source>
+        <translation>yotoken-Adresse, mit der die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this cobrax address</source>
-        <translation>Die Nachricht signieren, um den Besitz dieser cobrax-Adresse zu belegen</translation>
+        <source>Sign the message to prove you own this yotoken address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser yotoken-Adresse zu belegen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur hinein, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
     </message>
     <message>
-        <source>The cobrax address the message was signed with</source>
-        <translation>cobrax-Adresse, mit der die Nachricht signiert worden ist</translation>
+        <source>The yotoken address the message was signed with</source>
+        <translation>yotoken-Adresse, mit der die Nachricht signiert worden ist</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified cobrax address</source>
-        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen cobrax-Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified yotoken address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen yotoken-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>cobrax Core</source>
-        <translation>cobrax Core</translation>
+        <source>yotoken Core</source>
+        <translation>yotoken Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Die "Bitcoin Core"-Entwickler</translation>
     </message>
     <message>
-        <source>The cobrax Core developers</source>
-        <translation>Die "cobrax Core"-Entwickler</translation>
+        <source>The yotoken Core developers</source>
+        <translation>Die "yotoken Core"-Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2919,7 +2919,7 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte cobrax müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine cobrax gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte yotoken müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine yotoken gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3273,11 +3273,11 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>cobrax überweisen</translation>
+        <translation>yotoken überweisen</translation>
     </message>
     <message>
-        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 CBRX.</source>
-        <translation>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 CBRX begrenzt.</translation>
+        <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 YOCO.</source>
+        <translation>InstantX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 YOCO begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -3320,18 +3320,18 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
     </message>
 </context>
 <context>
-    <name>cobrax-core</name>
+    <name>yotoken-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. cobrax Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. yotoken Core is probably already running.</source>
         <translation>Das Programm kann das Daten-Verzeichnis %s nicht als "in Verwendung" markieren. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Obfuscate benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr cobrax anonymisieren.</translation>
+        <translation>Obfuscate benutzt exakt gestückelte Beträge zum Versenden, Sie müssen dafür möglicherweise noch mehr yotoken anonymisieren.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -3382,16 +3382,16 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. cobrax Core is probably already running.</source>
-        <translation>cobrax Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
+        <source>Unable to bind to %s on this computer. yotoken Core is probably already running.</source>
+        <translation>yotoken Core den Prozess %s auf dem Computer nicht an sich binden. Wahrscheinlich läuft das Programm bereits.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
         <translation>Für diese Transaktion konnten nicht genug mit Obfuscate gestückelte Beträge gefunden werden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Für diese Transaktion konnten nicht genug nicht mit Obfuscate gestückelte Beträge gefunden werden, die ungleich 1000 CBRX sind.</translation>
+        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Für diese Transaktion konnten nicht genug nicht mit Obfuscate gestückelte Beträge gefunden werden, die ungleich 1000 YOCO sind.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3614,8 +3614,8 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Lösche alle Wallet-Transaktionen stelle nur diese mittels -rescan beim nächsten Start des Wallets wieder her.</translation>
     </message>
     <message>
-        <source>Disable all cobrax specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktiviere all cobrax-spezifischen Funktionen (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, Standard: %u)</translation>
+        <source>Disable all yotoken specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Deaktiviere all yotoken-spezifischen Funktionen (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3634,12 +3634,12 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Fehler: Parameter -socks wird nicht mehr unterstützt. Setzen der SOCKS-Version ist nicht mehr möglich, es werden nur noch SOCKS5 Proxies unterstützt.</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Niedrigere Gebühren (in CBRX pro Kb) als diese werden bei der Vermittlung als gebührenfrei angesehen (Standard: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Niedrigere Gebühren (in YOCO pro Kb) als diese werden bei der Vermittlung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CBRX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Niedrigere Gebühren (in CBRX pro Kb) als diese werden bei der Transaktionserzeugung als gebührenfrei angesehen (Standard: %s)</translation>
+        <source>Fees (in YOCO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Niedrigere Gebühren (in YOCO pro Kb) als diese werden bei der Transaktionserzeugung als gebührenfrei angesehen (Standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3687,7 +3687,7 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
     </message>
     <message>
         <source>Provide liquidity to Obfuscate by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Durch diese Einstellung können Sie dem Obfuscate-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte cobrax wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
+        <translation>Durch diese Einstellung können Sie dem Obfuscate-Netzwerk zusätzliche Liquidität zur Verfügung stellen in dem Sie von Zeit zu Zeit bereits anonymisierte yotoken wieder dem Mixing-Prozess zuführen. (0-100, 0=aus, 1=sehr oft, 100=sehr selten (wenig Gebühren). Standard: %u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3710,31 +3710,31 @@ Dies kann passieren, wenn einige cobrax aus ihrer Wallet bereits ausgegeben wurd
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use cobraxd, or the -server option to cobrax-qt, you must set an rpcpassword in the configuration file:
+        <source>To use yotokend, or the -server option to yotoken-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=cobraxrpc
+rpcuser=yotokenrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "cobrax Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "yotoken Alert" admin@foo.com
 </source>
-        <translation>Um cobraxd (oder cobrax-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
+        <translation>Um yotokend (oder yotoken-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
-rpcuser=cobraxrpc
+rpcuser=yotokenrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken!)
 Der Benutzername und das Passwort dürfen NICHT identisch sein.
 Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
 Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtigt zu werden;
-zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</translation>
+zum Beispiel: alertnotify=echo %%s | mail -s \"yotoken Alert\" admin@foo.com</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 CBRX.</source>
-        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 CBRX sind.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 YOCO.</source>
+        <translation>Für diese Transaktion konnten nicht genug Beträge gefunden werden, die ungleich 1000 YOCO sind.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3745,8 +3745,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
         <translation>Warnung: -maxtxfee ist auf einen sehr hohen Wert gesetzt! Diese Gebühr könnte schon beim Senden einer einzelnen Transaktion fällig werden.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong cobrax Core will not work properly.</source>
-        <translation>Warnung: Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da cobrax Core ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong yotoken Core will not work properly.</source>
+        <translation>Warnung: Bitte überprüfen Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da yotoken Core ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3758,7 +3758,7 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
     </message>
     <message>
         <source>(23777 could be used only on mainnet)</source>
-        <translation>(23777 kann nur im StandarCBRXz benutzt werden)</translation>
+        <translation>(23777 kann nur im StandarYOCOz benutzt werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3803,8 +3803,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
         <translation>Copyright (C) 2015-%i Die "ALQO Core"-Entwickler</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The cobrax Core Developers</source>
-        <translation>Copyright (C) 2017-%i Die "cobrax Core"-Entwickler</translation>
+        <source>Copyright (C) 2017-%i The yotoken Core Developers</source>
+        <translation>Copyright (C) 2017-%i Die "yotoken Core"-Entwickler</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3835,8 +3835,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
         <translation>Fehler bei der Verbindung zum Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of cobrax Core</source>
-        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von cobrax Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of yotoken Core</source>
+        <translation>Fehler beim Laden von wallet.dat: Wallet benötigt neuere Version von yotoken Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3851,8 +3851,8 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
         <translation>Fehler: Paramter -tor wird nicht unterstützt, bitte -onion benutzen.</translation>
     </message>
     <message>
-        <source>Fee (in CBRX/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühren (in CBRX pro Kb), die gesendeten Transaktionen hinzugefügt werden (Standard: %s)</translation>
+        <source>Fee (in YOCO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühren (in YOCO pro Kb), die gesendeten Transaktionen hinzugefügt werden (Standard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3907,9 +3907,9 @@ zum Beispiel: alertnotify=echo %%s | mail -s \"cobrax Alert\" admin@foo.com</tra
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. cobrax Core is shutting down.</source>
+        <source>Initialization sanity check failed. yotoken Core is shutting down.</source>
         <translation>Fehler beim Initialisieren (Plausibilitätsprüfung fehlgeschlagen).
-cobrax Core wird heruntergefahren.</translation>
+yotoken Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4153,14 +4153,14 @@ cobrax Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>N unterschiedliche Masternodes benutzen, um cobrax zu anonymisieren (2-8, Standard: %u)</translation>
+        <translation>N unterschiedliche Masternodes benutzen, um yotoken zu anonymisieren (2-8, Standard: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart cobrax Core to complete</source>
+        <source>Wallet needed to be rewritten: restart yotoken Core to complete</source>
         <translation>Die Wallet musste neu geschrieben werden. Bitte das Programm neu starten um den Vorgang abzuschließen</translation>
     </message>
     <message>
@@ -4181,7 +4181,7 @@ cobrax Core wird heruntergefahren.</translation>
     </message>
     <message>
         <source>(must be 23777 for mainnet)</source>
-        <translation>(muss für StandarCBRXz 23777 sein)</translation>
+        <translation>(muss für StandarYOCOz 23777 sein)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
@@ -4220,7 +4220,7 @@ cobrax Core wird heruntergefahren.</translation>
         <translation>"KeePassHttp key" für die  AES-verschlüsselte Kommunikation mit "KeePass"</translation>
     </message>
     <message>
-        <source>Keep N CBRX anonymized (default: %u)</source>
+        <source>Keep N YOCO anonymized (default: %u)</source>
         <translation>Betrag welcher anonymisiert vorgehalten wird. (Voreinstellung: %u)</translation>
     </message>
     <message>

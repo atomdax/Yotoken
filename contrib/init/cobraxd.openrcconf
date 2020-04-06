@@ -1,25 +1,25 @@
-# /etc/conf.d/cobraxd: config file for /etc/init.d/cobraxd
+# /etc/conf.d/yotokend: config file for /etc/init.d/yotokend
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/cobrax/cobrax.conf"
+#BITCOIND_CONFIGFILE="/etc/yotoken/yotoken.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/cobraxd"
+#BITCOIND_PIDDIR="/var/run/yotokend"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cobraxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/yotokend.pid"
 
-# Where to write cobraxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/cobraxd"
+# Where to write yotokend data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/yotokend"
 
-# User and group to own cobraxd process
-#BITCOIND_USER="cobrax"
-#BITCOIND_GROUP="cobrax"
+# User and group to own yotokend process
+#BITCOIND_USER="yotoken"
+#BITCOIND_GROUP="yotoken"
 
-# Path to cobraxd executable
-#BITCOIND_BIN="/usr/bin/cobraxd"
+# Path to yotokend executable
+#BITCOIND_BIN="/usr/bin/yotokend"
 
-# Nice value to run cobraxd under
+# Nice value to run yotokend under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

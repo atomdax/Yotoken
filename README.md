@@ -1,37 +1,37 @@
-<a href="http://www.freeimagehosting.net/commercial-photography/"><img src="https://i.imgur.com/qXDNFxL.png" alt="Commercial Photography"></a>
+
 
 Features
 =============
 
-CobraX Coin – A Decentralized Data Sharing Platform, Hosting, and Content Distribution Network through Masternode Network.
+yotoken Coin – A Decentralized Data Sharing Platform, Hosting, and Content Distribution Network through Masternode Network.
 
 ## Coin Specifications
 
 | Specification | Value | <br>
-| NAME | CobraX |<br>
-| TICKER | CBRX |<br>
+| NAME | yotoken |<br>
+| TICKER | YOCO |<br>
 | ALGO   | XEVAN |<br>
 | Block Size | `3MB` |<br>
 | Block Time | `300s` |<br>
-| PoW Reward | `10 CBRX` |*<br>
-| Masternode Requirement | `1,000 CBRX` |<br>
+| PoW Reward | `10 YOCO` |*<br>
+| Masternode Requirement | `1,000 YOCO` |<br>
 | Port | `23777` |
   
   
 | Block Reward Distribution | </br>
 
-10 CBRX per Block
+10 YOCO per Block
 
 
 </br>
 | Masternode Reward |</br>
 |:-----------|:-----------|</br>
 | Block | Reward |</br>
-| 30% for Stakers  | 70% of Block Reward for Masternodes |</br>
+| 20% for Stakers  | 80% of Block Reward for Masternodes |</br>
 
 
 
-Build cobrax Wallet
+Build yotoken Wallet
 ----------
 
 ### Building for 64-bit Windows
@@ -52,13 +52,13 @@ Ubuntu Xenial 16.04 and Windows Subsystem for Linux
     
 Once the tool chain is installed the build steps are common:
 
-Note that for WSL the cobrax Core source path MUST be somewhere in the default mount file system, for example /usr/src/cobrax, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail. This means you cannot use a directory that located directly on the host Windows file system to perform the build.
+Note that for WSL the yotoken Core source path MUST be somewhere in the default mount file system, for example /usr/src/yotoken, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail. This means you cannot use a directory that located directly on the host Windows file system to perform the build.
 
 The next three steps are an example of how to acquire the source in an appropriate way.
 
     cd /usr/src
-    sudo git clone https://github.com/cobrax/cobrax.git
-    sudo chmod -R a+r+w cobrax
+    sudo git clone https://github.com/yotoken/yotoken.git
+    sudo chmod -R a+r+w yotoken
     
 Once the source code is ready the build steps are below.
 
@@ -82,13 +82,13 @@ Once the source code is ready the build steps are below.
     # If you want to build the Qt GUI:
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
-    git clone https://github.com/cobrax/cobrax.git --recursive
+    git clone https://github.com/yotoken/yotoken.git --recursive
     
-    cd cobrax
+    cd yotoken
 
     # Note autogen will prompt to install some more dependencies if needed
-    chmod a+x+w -R cobrax/
-    cd cobrax/
+    chmod a+x+w -R yotoken/
+    cd yotoken/
     ./autogen.sh
     ./configure 
     make
@@ -114,16 +114,16 @@ Then install [Homebrew](https://brew.sh).
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-#### Build cobrax Core
+#### Build yotoken Core
 
-1. Clone the cobrax source code and cd into `cobrax`
+1. Clone the yotoken source code and cd into `yotoken`
 
-        git clone --recursive https://github.com/cobrax/cobrax.git
-        cd cobrax
+        git clone --recursive https://github.com/yotoken/yotoken.git
+        cd yotoken
 
-2.  Build cobrax Core:
+2.  Build yotoken Core:
 
-    Configure and build the headless cobrax binaries as well as the GUI (if Qt is found).
+    Configure and build the headless yotoken binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -137,21 +137,21 @@ NOTE: Building with Qt4 is still supported, however, could result in a broken UI
 
 ### Run
 
-Then you can either run the command-line daemon using `src/cobraxd` and `src/cobrax-cli`, or you can run the Qt GUI using `src/qt/cobrax-qt`
+Then you can either run the command-line daemon using `src/yotokend` and `src/yotoken-cli`, or you can run the Qt GUI using `src/qt/yotoken-qt`
 
-For in-depth description of Sparknet and how to use cobrax for interacting with contracts, please see [sparknet-guide](doc/sparknet-guide.md).
+For in-depth description of Sparknet and how to use yotoken for interacting with contracts, please see [sparknet-guide](doc/sparknet-guide.md).
 
 License
 -------
 
-cobraxcore is GPLv3 licensed.
+yotokencore is GPLv3 licensed.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/cobrax/cobrax/tags) are created
-regularly to indicate new official, stable release versions of cobrax.
+completely stable. [Tags](https://github.com/yotoken/yotoken/tags) are created
+regularly to indicate new official, stable release versions of yotoken.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

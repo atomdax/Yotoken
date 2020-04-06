@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="cobraxSupply">
+    <widget class="QLabel" name="yotokenSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="cobraxDemand">
+    <widget class="QLabel" name="yotokenDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="Buycobrax">
+    <widget class="QPushButton" name="Buyyotoken">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy cobrax</string>
+      <string>Buy yotoken</string>
      </property>
      <property name="icon">
-      <iconset resource="../cobrax.qrc">
+      <iconset resource="../yotoken.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>cobrax</string>
+      <string>yotoken</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>cobrax</string>
+      <string>yotoken</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputcobrax">
+    <widget class="QLineEdit" name="UnitsInputyotoken">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellcobraxBTN">
+    <widget class="QPushButton" name="SellyotokenBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell cobrax</string>
+      <string>Sell yotoken</string>
      </property>
      <property name="icon">
-      <iconset resource="../cobrax">
+      <iconset resource="../yotoken">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>cobrax Available:</string>
+         <string>yotoken Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="cobraxAvailableLabel">
+       <widget class="QLabel" name="yotokenAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelcobrax">
+       <widget class="QLabel" name="labelyotoken">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>cobrax</string>
+         <string>yotoken</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="cobraxBalanceLabel">
+    <widget class="QLabel" name="yotokenBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>cobrax Balance:</string>
+      <string>yotoken Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="cobraxAvailableLabel_2">
+    <widget class="QLabel" name="yotokenAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>cobrax Available:</string>
+      <string>yotoken Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>cobrax Pending:</string>
+      <string>yotoken Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="cobraxPendingLabel">
+    <widget class="QLabel" name="yotokenPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex cobrax Deposit Address:</string>
+      <string>Bittrex yotoken Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate cobrax Deposit Address</string>
+      <string>Generate yotoken Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../cobrax.qrc">
+      <iconset resource="../yotoken.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertcobrax">
+     <widget class="QPushButton" name="btnConvertyotoken">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../cobrax.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../yotoken.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../cobrax.qrc">
+      <iconset resource="../yotoken.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../cobrax.qrc"/>
+  <include location="../yotoken.qrc"/>
  </resources>
  <connections/>
 </ui>

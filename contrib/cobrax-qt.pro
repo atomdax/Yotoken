@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/Darksend-relay.h \
            src/Darksend.h \
-           src/cobrax-config.h \
+           src/yotoken-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/cobrax-config.h \
+           src/config/yotoken-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -334,7 +334,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/cobrax.moc \
+           src/qt/yotoken.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
 		   src/qt/coinmix.moc \
@@ -377,9 +377,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/Darksend-relay.cpp \
            src/Darksend.cpp \
-           src/cobrax-cli.cpp \
-           src/cobrax-tx.cpp \
-           src/cobrax.cpp \
+           src/yotoken-cli.cpp \
+           src/yotoken-tx.cpp \
+           src/yotoken.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -474,8 +474,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/Darksendconfig.cpp \
-           src/qt/cobrax.cpp \
-           src/qt/cobraxstrings.cpp \
+           src/qt/yotoken.cpp \
+           src/qt/yotokenstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -554,7 +554,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_cobrax.cpp \
+           src/test/test_yotoken.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -645,21 +645,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/cobrax.qrc src/qt/cobrax_locale.qrc
+RESOURCES += src/qt/yotoken.qrc src/qt/yotoken_locale.qrc
 
-TRANSLATIONS += src/qt/locale/cobrax_bg.ts \
-                src/qt/locale/cobrax_de.ts \
-                src/qt/locale/cobrax_en.ts \
-                src/qt/locale/cobrax_es.ts \
-                src/qt/locale/cobrax_fi.ts \
-                src/qt/locale/cobrax_fr.ts \
-                src/qt/locale/cobrax_it.ts \
-                src/qt/locale/cobrax_ja.ts \
-                src/qt/locale/cobrax_pl.ts \
-                src/qt/locale/cobrax_pt.ts \
-                src/qt/locale/cobrax_ru.ts \
-                src/qt/locale/cobrax_sk.ts \
-                src/qt/locale/cobrax_sv.ts \
-                src/qt/locale/cobrax_vi.ts \
-                src/qt/locale/cobrax_zh_CN.ts \
-                src/qt/locale/cobrax_zh_TW.ts
+TRANSLATIONS += src/qt/locale/yotoken_bg.ts \
+                src/qt/locale/yotoken_de.ts \
+                src/qt/locale/yotoken_en.ts \
+                src/qt/locale/yotoken_es.ts \
+                src/qt/locale/yotoken_fi.ts \
+                src/qt/locale/yotoken_fr.ts \
+                src/qt/locale/yotoken_it.ts \
+                src/qt/locale/yotoken_ja.ts \
+                src/qt/locale/yotoken_pl.ts \
+                src/qt/locale/yotoken_pt.ts \
+                src/qt/locale/yotoken_ru.ts \
+                src/qt/locale/yotoken_sk.ts \
+                src/qt/locale/yotoken_sv.ts \
+                src/qt/locale/yotoken_vi.ts \
+                src/qt/locale/yotoken_zh_CN.ts \
+                src/qt/locale/yotoken_zh_TW.ts

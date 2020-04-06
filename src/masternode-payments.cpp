@@ -1,7 +1,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The cobrax developers
+// Copyright (c) 2017-2018 The yotoken developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -569,7 +569,7 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
 		if(out.scriptPubKey == developerfeescriptpubkey) {
 			if(out.nValue >= requiredDeveloperPayment) {
 				foundDevFee = true;
-				LogPrintf("Developer-Fee Payment found! Thanks for supporting cobrax!");
+				LogPrintf("Developer-Fee Payment found! Thanks for supporting yotoken!");
 			}
 		}
 	}

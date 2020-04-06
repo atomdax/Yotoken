@@ -1,19 +1,19 @@
 [Unit]
-Description=cobrax's distributed currency daemon
+Description=yotoken's distributed currency daemon
 After=network.target
 
 [Service]
-User=cobrax
-Group=cobrax
+User=yotoken
+Group=yotoken
 
 Type=forking
-PIDFile=/var/lib/cobraxd/cobraxd.pid
+PIDFile=/var/lib/yotokend/yotokend.pid
 
-ExecStart=/usr/bin/cobraxd -daemon -pid=/var/lib/cobraxd/cobraxd.pid \
-          -conf=/etc/cobrax/cobrax.conf -datadir=/var/lib/cobraxd
+ExecStart=/usr/bin/yotokend -daemon -pid=/var/lib/yotokend/yotokend.pid \
+          -conf=/etc/yotoken/yotoken.conf -datadir=/var/lib/yotokend
 
-ExecStop=-/usr/bin/cobrax-cli -conf=/etc/cobrax/cobrax.conf \
-         -datadir=/var/lib/cobraxd stop
+ExecStop=-/usr/bin/yotoken-cli -conf=/etc/yotoken/yotoken.conf \
+         -datadir=/var/lib/yotokend stop
 
 Restart=always
 PrivateTmp=true

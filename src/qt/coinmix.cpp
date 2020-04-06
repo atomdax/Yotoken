@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The cobrax developers
+// Copyright (c) 2017-2018 The yotoken developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
@@ -36,7 +36,7 @@ class TxViewDelegate2 : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate2() : QAbstractItemDelegate(), unit(BitcoinUnits::CBRX)
+    TxViewDelegate2() : QAbstractItemDelegate(), unit(BitcoinUnits::YOCO)
     {
     }
 
@@ -288,7 +288,7 @@ void Coinmix::setWalletModel(WalletModel* model)
         //connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("CBRX")
+    // update the display unit, to not use the default ("YOCO")
     //updateDisplayUnit();
 }
 

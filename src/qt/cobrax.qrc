@@ -80,8 +80,8 @@
         <file alias="walletFrame">res/images/walletFrame.png</file>
         <file alias="walletFrame_bg">res/images/walletFrame_bg.png</file>
         <file alias="walletFrame_bgdark">res/images/walletFrame_bgdark.png</file>
-        <file alias="cobrax_logo_horizontal">res/images/cobrax_logo_horizontal.png</file>
-        <file alias="cobraxlogo_name">res/images/cobraxlogo_name.png</file>
+        <file alias="yotoken_logo_horizontal">res/images/yotoken_logo_horizontal.png</file>
+        <file alias="yotokenlogo_name">res/images/yotokenlogo_name.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>

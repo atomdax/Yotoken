@@ -1,5 +1,5 @@
 ---
-name: "cobrax-dmg-signer"
+name: "yotoken-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/cobraxcoin/cobrax-sigs"
+- "url": "https://github.com/yotokencoin/yotoken-sigs"
   "dir": "signature"
 files:
-- "cobrax-osx-unsigned.tar.gz"
+- "yotoken-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,11 +27,11 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=cobrax-osx-unsigned.tar.gz
-  SIGNED=cobrax-osx-signed.dmg
+  UNSIGNED=yotoken-osx-unsigned.tar.gz
+  SIGNED=yotoken-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "cobrax-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "yotoken-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

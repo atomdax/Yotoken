@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * cobrax RPC command dispatcher.
+ * yotoken RPC command dispatcher.
  */
 class CRPCTable
 {

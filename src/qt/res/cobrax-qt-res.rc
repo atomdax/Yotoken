@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "cobrax"
-            VALUE "FileDescription",    "cobrax Core (OSS GUI client for cobrax)"
+            VALUE "CompanyName",        "yotoken"
+            VALUE "FileDescription",    "yotoken Core (OSS GUI client for yotoken)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "cobrax-qt"
+            VALUE "InternalName",       "yotoken-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "cobrax-qt.exe"
-            VALUE "ProductName",        "cobrax Core"
+            VALUE "OriginalFilename",   "yotoken-qt.exe"
+            VALUE "ProductName",        "yotoken Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
