@@ -114,7 +114,7 @@ public:
         nMaxMoneyOut = 28000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";
 
-        const char* pszTimestamp = "yotoken New cryptocurrency 2019";
+        const char* pszTimestamp = "yotoken is part of the yotalk app, 06-04-2020";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
