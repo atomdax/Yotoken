@@ -127,7 +127,7 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 32259396;
 		
 		
 		
