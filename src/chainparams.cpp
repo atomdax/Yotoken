@@ -91,9 +91,9 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xaa;
+        pchMessageStart[0] = 0x39;
         pchMessageStart[1] = 0x22;
-        pchMessageStart[2] = 0x39;
+        pchMessageStart[2] = 0xaa;
         pchMessageStart[3] = 0x89;
         vAlertPubKey = ParseHex("0444d74c0ea8967c7a0457f0ab8532fdd03900377780cb64a83ab8077510805a89eb9100948db395cbf5f0866b36e9697e65c35870134b52b65018a379cf02f035");                        
         nDefaultPort = 23777;
@@ -104,14 +104,14 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 5 * 60; // yotoken: 5 minutes
-        nTargetSpacing =  5 * 60;  // yotoken: 5 minute
+        nTargetTimespan = 2 * 60; // yotoken: 2 minutes
+        nTargetSpacing =  2 * 60;  // yotoken: 2 minute
         nLastPOWBlock = 3016;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
-	nMasternodeColleteralLimxDev = 5000; //Params().MasternodeColleteralLimxDev()
+		nMasternodeColleteralLimxDev = 5000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // 
-        nMaxMoneyOut = 28000000 * COIN;
+        nMaxMoneyOut = 250000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";
 
         const char* pszTimestamp = "yotoken is part of the yotalk app, 06-04-2020";
@@ -125,9 +125,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1553569336;
+        genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 32259396;
+        genesis.nNonce = 0;
 		
 		
 		
@@ -136,13 +136,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x"));
 	
        	// New Seed Nodes added 17/02/2019
-        vSeeds.push_back(CDNSSeedData("157.230.223.81 ", "157.230.223.81 "));  // Seed node 1 : New Jersey	more nodes to be added		
+        //vSeeds.push_back(CDNSSeedData("157.230.223.81 ", "157.230.223.81 "));  // Seed node 1 : New Jersey	more nodes to be added		
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 29);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 83);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0xAD)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x1E)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0xAD)(0x04)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x1E)(0x04)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         // 	BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md 1977 0x800007b9
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x07)(0xb9).convert_to_container<std::vector<unsigned char> >();
 
@@ -161,7 +161,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "04130ec0dd4e2326ae219be3b43c6ddfe08243605b853107228126237f79e24b13543a39099ef994020c39498c3f8061ac5f7c01b5be6f5ed7ffad248e326fccd6";
         strDarksendPoolDummyAddress = "NVPbvwMsazkvyyJbThNE6Edjj74JUFDdWy";
-        nStartMasternodePayments = 1519010250;
+        nStartMasternodePayments = 1586225788;
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
