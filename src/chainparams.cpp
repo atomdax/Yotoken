@@ -127,12 +127,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 32259396;
+        genesis.nNonce = 22621390;
 		
 		
 		
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000c18cc0136563ee2aa76a21e1f699e7d331db432b8f322a563164a379060"));
+        assert(hashGenesisBlock == uint256("0x00000ff2bb5a04600b690b78d180f1f9ba1483c0fedb51708ebe73b8c2d54f90"));
         assert(genesis.hashMerkleRoot == uint256("0x5b6000eba3f56c57d056b863777e04bb090edb8d53030bab9ab88ffa7ceb3dc6"));
 	
        	// New Seed Nodes added 17/02/2019
@@ -200,11 +200,11 @@ public:
         strDeveloperFeePayee = "---";
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1553569336;
-        genesis.nNonce = 32259396;
+        genesis.nTime = 1586225788;
+        genesis.nNonce = 22621390;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000af9230e7ee3c58e2ac00ab3125a57ee34c371ae2e2e47224ab8b024e8a8"));
+        assert(hashGenesisBlock == uint256("0x00000ff2bb5a04600b690b78d180f1f9ba1483c0fedb51708ebe73b8c2d54f90"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -265,14 +265,14 @@ public:
         nTargetTimespan = 5 * 60; // yotoken: 5 minutes
         nTargetSpacing = 1 * 60;  // yotoken: 1 minute
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1553569336;
+        genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 32259396;
+        genesis.nNonce = 22621390;
         strDeveloperFeePayee = "---";
 
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000af9230e7ee3c58e2ac00ab3125a57ee34c371ae2e2e47224ab8b024e8a8"));
+        assert(hashGenesisBlock == uint256("0x00000ff2bb5a04600b690b78d180f1f9ba1483c0fedb51708ebe73b8c2d54f90"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
