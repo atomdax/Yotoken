@@ -106,10 +106,10 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 2 * 60; // yotokens: 2 minutes
         nTargetSpacing =  2 * 60;  // yotokens: 2 minute
-        nLastPOWBlock = 3016;
+        nLastPOWBlock = 400;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
-		nMasternodeColleteralLimxDev = 5000; //Params().MasternodeColleteralLimxDev()
+		nMasternodeColleteralLimxDev = 50000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // 
         nMaxMoneyOut = 250000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";

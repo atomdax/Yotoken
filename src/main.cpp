@@ -1654,7 +1654,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 			nMasternodeCount = mnodeman.stable_size();
 		}
 
-		int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
+		int64_t mNodeCoins = nMasternodeCount * 50000 * COIN;
 
 		if (mNodeCoins == 0) {
             ret = 0;
@@ -1665,8 +1665,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
 			if(masternodeMultiplier < .1) {
 				masternodeMultiplier = .1;
-			} else if(masternodeMultiplier > .9) {
-				masternodeMultiplier = .9;
+			} else if(masternodeMultiplier > .75) {
+				masternodeMultiplier = .75;
 			}
 
 			LogPrintf("[yotokens] Adjusting yotokens at height %d with %d masternodes (%d % locked Nodex) and %d Nodex supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());

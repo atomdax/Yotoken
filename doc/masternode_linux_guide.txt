@@ -63,7 +63,7 @@ yotokens-cli getaccountaddress 0
 
 copy the generated address to a text file
 
-Send 1000 yotokens to "address 0"
+Send 50000 yotokens to "address 0"
 
 go to yotokens.conf in
 
@@ -99,7 +99,7 @@ masternode.conf
 Quote
 mn1 127.0.0.1:23777 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 
-set up your ip, masternode privkey, and TXID (of the 1000 EMN)
+set up your ip, masternode privkey, and TXID (of the 50000 YOCO)
 
 
 now shutdown yotokensd process and restart it
