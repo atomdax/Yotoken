@@ -69,7 +69,7 @@ border-image: url(:/images/background) 0 0 0 0 no-repeat stretch;
                <cursorShape>WhatsThisCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the yotoken network after a connection is established, but this process has not completed yet.</string>
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the yotokens network after a connection is established, but this process has not completed yet.</string>
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>
@@ -473,7 +473,7 @@ min-height:35px;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">qproperty-alignment: 'AlignVBottom | AlignLeft';
-background-image: url(':/images/yotokenlogo_name');
+background-image: url(':/images/yotokenslogo_name');
 background-repeat: no-repeat;
 font-weight: bold;</string>
          </property>
@@ -550,7 +550,7 @@ font-weight: bold;</string>
                <cursorShape>WhatsThisCursor</cursorShape>
               </property>
               <property name="toolTip">
-               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the yotoken network after a connection is established, but this process has not completed yet.</string>
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the yotokens network after a connection is established, but this process has not completed yet.</string>
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>

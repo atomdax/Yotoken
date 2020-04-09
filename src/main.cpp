@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -43,7 +43,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "yotoken cannot be compiled without assertions."
+#error "yotokens cannot be compiled without assertions."
 #endif
 
 /**
@@ -97,7 +97,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "yotoken Signed Message:\n";
+const string strMessageMagic = "yotokens Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -1669,9 +1669,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 				masternodeMultiplier = .9;
 			}
 
-			LogPrintf("[yotoken] Adjusting yotoken at height %d with %d masternodes (%d % locked Nodex) and %d Nodex supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());
-			LogPrintf("[yotoken] Masternode: %d\n", masternodeMultiplier*100);
-			LogPrintf("[yotoken] Staker: %d\n", (1 - masternodeMultiplier)*100);
+			LogPrintf("[yotokens] Adjusting yotokens at height %d with %d masternodes (%d % locked Nodex) and %d Nodex supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());
+			LogPrintf("[yotokens] Masternode: %d\n", masternodeMultiplier*100);
+			LogPrintf("[yotokens] Staker: %d\n", (1 - masternodeMultiplier)*100);
 			
 			ret = blockValue * masternodeMultiplier;
 		}
@@ -2064,7 +2064,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("yotoken-scriptch");
+    RenameThread("yotokens-scriptch");
     scriptcheckqueue.Thread();
 }
 

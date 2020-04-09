@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both yotokend and yotoken-qt, to make it harder for attackers to
+ * for both yotokensd and yotokens-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("yotoken Core");
+const std::string CLIENT_NAME("yotokens Core");
 
 /**
  * Client version number

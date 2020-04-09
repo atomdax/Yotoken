@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/yotokencoin/yotoken-core
+url=https://github.com/yotokenscoin/yotokens-core
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the yotoken, gitian-builder, gitian.sigs, and yotoken-detached-sigs.
+Run this script from the directory containing the yotokens, gitian-builder, gitian.sigs, and yotokens-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/yotokencoin/yotoken-core
+-u|--url	Specify the URL of the repository. Default is https://github.com/yotokenscoin/yotokens-core
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -232,8 +232,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/yotokencoin/yotoken-sigs
-    git clone https://github.com/yotokencoin/yotoken-detached-sigs
+    git clone https://github.com/yotokenscoin/yotokens-sigs
+    git clone https://github.com/yotokenscoin/yotokens-detached-sigs
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./yotoken
+pushd ./yotokens
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./yotoken-binaries/${VERSION}
+	mkdir -p ./yotokens-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../yotoken/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../yotokens/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotoken=${COMMIT} --url yotoken=${url} ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/yotoken-*.tar.gz build/out/src/yotoken-*.tar.gz ../yotoken-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotokens=${COMMIT} --url yotokens=${url} ../yotokens-core/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../yotokens-core/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/yotokens-*.tar.gz build/out/src/yotokens-*.tar.gz ../yotokens-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotoken=${COMMIT} --url yotoken=${url} ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/yotoken-*-win-unsigned.tar.gz inputs/yotoken-win-unsigned.tar.gz
-	    mv build/out/yotoken-*.zip build/out/yotoken-*.exe ../yotoken-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotokens=${COMMIT} --url yotokens=${url} ../yotokens-core/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../yotokens-core/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/yotokens-*-win-unsigned.tar.gz inputs/yotokens-win-unsigned.tar.gz
+	    mv build/out/yotokens-*.zip build/out/yotokens-*.exe ../yotokens-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotoken=${COMMIT} --url yotoken=${url} ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/yotoken-*-osx-unsigned.tar.gz inputs/yotoken-osx-unsigned.tar.gz
-	    mv build/out/yotoken-*.tar.gz build/out/yotoken-*.dmg ../yotoken-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit yotokens=${COMMIT} --url yotokens=${url} ../yotokens-core/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../yotokens-core/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/yotokens-*-osx-unsigned.tar.gz inputs/yotokens-osx-unsigned.tar.gz
+	    mv build/out/yotokens-*.tar.gz build/out/yotokens-*.dmg ../yotokens-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../yotoken-core/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../yotokens-core/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../yotoken-core/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../yotokens-core/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../yotoken-core/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../yotokens-core/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../yotokens-core/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../yotokens-core/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../yotoken-core/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/yotoken-*win64-setup.exe ../yotoken-binaries/${VERSION}
-	    mv build/out/yotoken-*win32-setup.exe ../yotoken-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../yotokens-core/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../yotokens-core/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/yotokens-*win64-setup.exe ../yotokens-binaries/${VERSION}
+	    mv build/out/yotokens-*win32-setup.exe ../yotokens-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../yotoken-core/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/yotoken-osx-signed.dmg ../yotoken-binaries/${VERSION}/yotoken-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../yotokens-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../yotokens-core/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/yotokens-osx-signed.dmg ../yotokens-binaries/${VERSION}/yotokens-${VERSION}-osx.dmg
 	fi
 	popd
 

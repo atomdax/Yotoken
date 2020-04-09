@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,7 +19,7 @@ OpenURIDialog::OpenURIDialog(QWidget* parent) : QDialog(parent),
 {
     ui->setupUi(this);
 #if QT_VERSION >= 0x040700
-    ui->uriEdit->setPlaceholderText("yotoken:");
+    ui->uriEdit->setPlaceholderText("yotokens:");
 #endif
 }
 
@@ -50,5 +50,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if (filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("yotoken:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("yotokens:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

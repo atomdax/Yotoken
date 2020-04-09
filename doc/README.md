@@ -1,41 +1,41 @@
-yotoken Core
+yotokens Core
 =========
 
 Setup
 -----
 
-[yotoken Core]http://bit.yotokens/ is the original yotoken client and it builds the backbone of the network. However, it downloads and stores the entire history of yotoken transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[yotokens Core]http://bit.yotokenss/ is the original yotokens client and it builds the backbone of the network. However, it downloads and stores the entire history of yotokens transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 -------
-The following are some helpful notes on how to run yotoken on your native platform.
+The following are some helpful notes on how to run yotokens on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/yotoken-qt (GUI, 32-bit) or bin/32/yotokend (headless, 32-bit)
-- bin/64/yotoken-qt (GUI, 64-bit) or bin/64/yotokend (headless, 64-bit)
+- bin/32/yotokens-qt (GUI, 32-bit) or bin/32/yotokensd (headless, 32-bit)
+- bin/64/yotokens-qt (GUI, 64-bit) or bin/64/yotokensd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run yotoken-qt.exe.
+Unpack the files into a directory, and then run yotokens-qt.exe.
 
 ### OSX
 
-Drag yotoken-Qt to your applications folder, and then run yotoken-Qt.
+Drag yotokens-Qt to your applications folder, and then run yotokens-Qt.
 
 ### Need Help?
 
-* See the documentation at the [yotoken Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [yotokens Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2976421).
-* Join our Discord server [yotoken Discord](https://discord.gg/DHYsG6j).
+* Join our Discord server [yotokens Discord](https://discord.gg/DHYsG6j).
 
 Building
 --------
 
-The following are developer notes on how to build yotoken on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build yotokens on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -44,7 +44,7 @@ The following are developer notes on how to build yotoken on your native platfor
 Development
 -----------
 
-The yotoken repo's [root README](https://github.com/yotokencoin/yotoken-core/blob/master/README.md) contains relevant information on the development process and automated testing.
+The yotokens repo's [root README](https://github.com/yotokenscoin/yotokens-core/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -59,7 +59,7 @@ The yotoken repo's [root README](https://github.com/yotokencoin/yotoken-core/blo
 ### Resources
 
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2976421).
-* Join the [yotoken Discord](https://discord.gg/DHYsG6j) 
+* Join the [yotokens Discord](https://discord.gg/DHYsG6j) 
 
 ### Miscellaneous
 

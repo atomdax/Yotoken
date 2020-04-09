@@ -274,7 +274,7 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t& nStakeModifier, int
 
 uint256 stakeHash(unsigned int nTimeTx, CDataStream ss, unsigned int prevoutIndex, uint256 prevoutHash, unsigned int nTimeBlockFrom)
 {
-    //yotoken will hash in the transaction hash and the index number in order to make sure each hash is unique
+    //yotokens will hash in the transaction hash and the index number in order to make sure each hash is unique
     ss << nTimeBlockFrom << prevoutIndex << prevoutHash << nTimeTx;
     return Hash(ss.begin(), ss.end());
 }
@@ -425,7 +425,7 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex)
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum)
 {
-	// yotoken TODO: renable once stacking generates a checkpoint
+	// yotokens TODO: renable once stacking generates a checkpoint
     /*
     if (fTestNet) return true; // Testnet has no checkpoints
     if (mapStakeModifierCheckpoints.count(nHeight)) {

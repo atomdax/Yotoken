@@ -2,12 +2,12 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/yotoken-config.h"
+#include "config/yotokens-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -164,7 +164,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in yotoken.cpp during shutdown to also remove the window positions
+    resetSettings = true; // Needed in yotokens.cpp during shutdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

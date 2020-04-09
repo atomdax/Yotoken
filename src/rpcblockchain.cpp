@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -404,8 +404,8 @@ Value gettxout(const Array& params, bool fHelp)
             "     \"hex\" : \"hex\",        (string) \n"
             "     \"reqSigs\" : n,          (numeric) Number of required signatures\n"
             "     \"type\" : \"pubkeyhash\", (string) The type, eg pubkeyhash\n"
-            "     \"addresses\" : [          (array of string) array of yotoken addresses\n"
-            "     \"yotokenaddress\"   	 	(string) yotoken address\n"
+            "     \"addresses\" : [          (array of string) array of yotokens addresses\n"
+            "     \"yotokensaddress\"   	 	(string) yotokens address\n"
             "        ,...\n"
             "     ]\n"
             "  },\n"

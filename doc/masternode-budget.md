@@ -1,7 +1,7 @@
 Masternode Budget API
 =====================
 
-yotoken now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
+yotokens now supports full decentralized budgets that are paid directly from the blockchain via superblocks once per month.
 
 Budgets go through a series of stages before being paid:
 * prepare - create a special transaction that destroys coins in order to make a proposal
@@ -15,7 +15,7 @@ Budgets go through a series of stages before being paid:
 Prepare collateral transaction
 ------------------------------
 
-mnbudget prepare <proposal-name> <url> <payment_count> <block_start> <yotoken_address> <monthly_payment_xmx>
+mnbudget prepare <proposal-name> <url> <payment_count> <block_start> <yotokens_address> <monthly_payment_xmx>
 
 Example:
 
@@ -32,7 +32,7 @@ In this transaction we prepare collateral for "_cool-project_". This proposal wi
 Submit proposal to network
 --------------------------
 
-mnbudget submit <proposal-name> <url> <payment_count> <block_start> <yotoken_address> <monthly_payment_xmx> <collateral_hash>
+mnbudget submit <proposal-name> <url> <payment_count> <block_start> <yotokens_address> <monthly_payment_xmx> <collateral_hash>
 
 Example:
 
@@ -154,9 +154,9 @@ The following new RPC commands are supported:
 - mnbudget "command"... ( "passphrase" )
  * prepare            - Prepare proposal for network by signing and creating tx
  * submit             - Submit proposal for network
- * vote-many          - Vote on a yotoken initiative
- * vote-alias         - Vote on a yotoken initiative
- * vote               - Vote on a yotoken initiative/budget
+ * vote-many          - Vote on a yotokens initiative
+ * vote-alias         - Vote on a yotokens initiative
+ * vote               - Vote on a yotokens initiative/budget
  * getvotes           - Show current masternode budgets
  * getinfo            - Show current masternode budgets
  * show               - Show all budgets

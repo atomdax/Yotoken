@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The ALQO Core developers, 2017-@COPYRIGHT_YEAR@ The yotoken Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The ALQO Core developers, 2017-@COPYRIGHT_YEAR@ The yotokens Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>yotoken-Qt</string>
+  <string>yotokens-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.yotokencoin.yotoken-Qt</string>
+  <string>org.yotokenscoin.yotokens-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.yotokencoin.yotokenPayment</string>
+      <string>org.yotokenscoin.yotokensPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>yotoken</string>
+        <string>yotokens</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.yotokencoin.paymentrequest</string>
+      <string>org.yotokenscoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>yotoken payment request</string>
+      <string>yotokens payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-yotoken-payment-request</string>
+        <string>application/x-yotokens-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>yotokenpaymentrequest</string>
+          <string>yotokenspaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.yotokencoin.paymentrequest</string>
+        <string>org.yotokenscoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

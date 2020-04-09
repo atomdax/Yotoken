@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += yotokend
+  bin_PROGRAMS += yotokensd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += yotoken-cli yotoken-tx
+  bin_PROGRAMS += yotokens-cli yotokens-tx
 endif
 
 .PHONY: FORCE
-# yotoken core #
+# yotokens core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -179,7 +179,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between yotokend and yotoken-qt
+# server: shared between yotokensd and yotokens-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(BOOST_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -223,7 +223,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between yotokend and yotoken-qt, but only linked
+# wallet: shared between yotokensd and yotokens-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -318,7 +318,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between yotokend, and yotoken-qt and non-server tools
+# common: shared between yotokensd, and yotokens-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -374,7 +374,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between yotoken-cli and yotoken-qt
+# cli: shared between yotokens-cli and yotokens-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -384,7 +384,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-yotokend_LDADD = \
+yotokensd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -395,40 +395,40 @@ yotokend_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-yotokend_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+yotokensd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-yotokend_LDADD += libbitcoin_wallet.a
+yotokensd_LDADD += libbitcoin_wallet.a
 endif
-yotokend_SOURCES = yotokend.cpp
+yotokensd_SOURCES = yotokensd.cpp
 #
 
 if TARGET_WINDOWS
-yotokend_SOURCES += yotokend-res.rc
+yotokensd_SOURCES += yotokensd-res.rc
 endif
 
-yotokend_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-yotokend_CPPFLAGS = $(BITCOIN_INCLUDES)
-yotokend_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yotokensd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+yotokensd_CPPFLAGS = $(BITCOIN_INCLUDES)
+yotokensd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# yotoken-cli binary #
-yotoken_cli_LDADD = \
+# yotokens-cli binary #
+yotokens_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-yotoken_cli_SOURCES = \
-  yotoken-cli.cpp
+yotokens_cli_SOURCES = \
+  yotokens-cli.cpp
 
-yotoken_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+yotokens_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# yotoken-tx binary #
-yotoken_tx_LDADD = \
+# yotokens-tx binary #
+yotokens_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -437,15 +437,15 @@ yotoken_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-yotoken_tx_SOURCES = yotoken-tx.cpp
-yotoken_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+yotokens_tx_SOURCES = yotokens-tx.cpp
+yotokens_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-yotoken_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yotokens_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-yotoken_cli_SOURCES += yotoken-cli-res.rc
+yotokens_cli_SOURCES += yotokens-cli-res.rc
 endif
-yotoken_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+yotokens_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

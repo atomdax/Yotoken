@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="yotokenSupply">
+    <widget class="QLabel" name="yotokensSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="yotokenDemand">
+    <widget class="QLabel" name="yotokensDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="Buyyotoken">
+    <widget class="QPushButton" name="Buyyotokens">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy yotoken</string>
+      <string>Buy yotokens</string>
      </property>
      <property name="icon">
-      <iconset resource="../yotoken.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>yotoken</string>
+      <string>yotokens</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>yotoken</string>
+      <string>yotokens</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputyotoken">
+    <widget class="QLineEdit" name="UnitsInputyotokens">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellyotokenBTN">
+    <widget class="QPushButton" name="SellyotokensBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell yotoken</string>
+      <string>Sell yotokens</string>
      </property>
      <property name="icon">
-      <iconset resource="../yotoken">
+      <iconset resource="../yotokens">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>yotoken Available:</string>
+         <string>yotokens Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="yotokenAvailableLabel">
+       <widget class="QLabel" name="yotokensAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelyotoken">
+       <widget class="QLabel" name="labelyotokens">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>yotoken</string>
+         <string>yotokens</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="yotokenBalanceLabel">
+    <widget class="QLabel" name="yotokensBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>yotoken Balance:</string>
+      <string>yotokens Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="yotokenAvailableLabel_2">
+    <widget class="QLabel" name="yotokensAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>yotoken Available:</string>
+      <string>yotokens Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>yotoken Pending:</string>
+      <string>yotokens Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="yotokenPendingLabel">
+    <widget class="QLabel" name="yotokensPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex yotoken Deposit Address:</string>
+      <string>Bittrex yotokens Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate yotoken Deposit Address</string>
+      <string>Generate yotokens Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../yotoken.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertyotoken">
+     <widget class="QPushButton" name="btnConvertyotokens">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../yotoken.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../yotokens.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../yotoken.qrc">
+      <iconset resource="../yotokens.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../yotoken.qrc"/>
+  <include location="../yotokens.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -3,7 +3,7 @@ dist: trusty
 
 #workaround for https://github.com/travis-ci/travis-ci/issues/5227
 addons:
-  hostname: yotoken-tester
+  hostname: yotokens-tester
 
 os: linux
 language: generic
@@ -34,7 +34,7 @@ env:
     - REASON=Linux32 HOST=i686-pc-linux-gnu PACKAGES="g++-multilib bc python3-zmq" RUN_TESTS=false GOAL="install" BITCOIN_CONFIG="--enable-zmq --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++" USE_SHELL="/bin/dash" PYZMQ=true
 # Win64
     - REASON=Win64 HOST=x86_64-w64-mingw32 DPKG_ADD_ARCH="i386" PACKAGES="python3 nsis g++-mingw-w64-x86-64 wine1.6 bc" RUN_TESTS=false GOAL="install" BITCOIN_CONFIG="--enable-reduce-exports"
-# yotokend
+# yotokensd
     - REASON=Linux64 HOST=x86_64-unknown-linux-gnu PACKAGES="bc python3-zmq" DEP_OPTS="NO_UPNP=1 DEBUG=1" RUN_TESTS=false GOAL="install" BITCOIN_CONFIG="--enable-zmq --enable-glibc-back-compat --enable-reduce-exports CPPFLAGS=-DDEBUG_LOCKORDER" PYZMQ=true
 # No wallet
 #    - REASON=NodeOnly HOST=x86_64-unknown-linux-gnu PACKAGES="python3" DEP_OPTS="NO_WALLET=1" RUN_TESTS=false GOAL="install" BITCOIN_CONFIG="--enable-glibc-back-compat --enable-reduce-exports"
@@ -77,12 +77,12 @@ after_script:
 after_success:
   - find $OUTDIR
   - export VERSION=$REASON-$TRAVIS_BRANCH
-  - if [ "$REASON" = "ARM" ]; then cd $OUTDIR && cp -a bin yotoken-Core-$VERSION && rm yotoken-Core-$VERSION/*test* && zip -r yotoken-Core-$VERSION.zip yotoken-Core-$VERSION; fi
-  - if [ "$REASON" = "Win32" ]; then cd $OUTDIR && cp -a bin yotoken-Core-$VERSION && rm yotoken-Core-$VERSION/*test* && zip -r yotoken-Core-$VERSION.zip yotoken-Core-$VERSION; fi
-  - if [ "$REASON" = "Win64" ]; then cd $OUTDIR && cp -a bin yotoken-Core-$VERSION && rm yotoken-Core-$VERSION/*test* && zip -r yotoken-Core-$VERSION.zip yotoken-Core-$VERSION; fi
-  - if [ "$REASON" = "Linux32" ]; then cd $OUTDIR && cp -a bin yotoken-Core-$VERSION && rm yotoken-Core-$VERSION/*test* && zip -r yotoken-Core-$VERSION.zip yotoken-Core-$VERSION; fi
-  - if [ "$REASON" = "Linux64" ]; then cd $OUTDIR && cp -a bin yotoken-Core-$VERSION && rm yotoken-Core-$VERSION/*test* && zip -r yotoken-Core-$VERSION.zip yotoken-Core-$VERSION; fi
-  - if [ "$REASON" = "MacOSX" ]; then mkdir -p $OUTDIR && cd $OUTDIR && cp /home/travis/build/yotokencoin/yotoken-core/bitcoin-x86_64-apple-darwin11/yotoken-Core.dmg yotoken-Core-$VERSION.dmg; fi
+  - if [ "$REASON" = "ARM" ]; then cd $OUTDIR && cp -a bin yotokens-Core-$VERSION && rm yotokens-Core-$VERSION/*test* && zip -r yotokens-Core-$VERSION.zip yotokens-Core-$VERSION; fi
+  - if [ "$REASON" = "Win32" ]; then cd $OUTDIR && cp -a bin yotokens-Core-$VERSION && rm yotokens-Core-$VERSION/*test* && zip -r yotokens-Core-$VERSION.zip yotokens-Core-$VERSION; fi
+  - if [ "$REASON" = "Win64" ]; then cd $OUTDIR && cp -a bin yotokens-Core-$VERSION && rm yotokens-Core-$VERSION/*test* && zip -r yotokens-Core-$VERSION.zip yotokens-Core-$VERSION; fi
+  - if [ "$REASON" = "Linux32" ]; then cd $OUTDIR && cp -a bin yotokens-Core-$VERSION && rm yotokens-Core-$VERSION/*test* && zip -r yotokens-Core-$VERSION.zip yotokens-Core-$VERSION; fi
+  - if [ "$REASON" = "Linux64" ]; then cd $OUTDIR && cp -a bin yotokens-Core-$VERSION && rm yotokens-Core-$VERSION/*test* && zip -r yotokens-Core-$VERSION.zip yotokens-Core-$VERSION; fi
+  - if [ "$REASON" = "MacOSX" ]; then mkdir -p $OUTDIR && cd $OUTDIR && cp /home/travis/build/yotokenscoin/yotokens-core/bitcoin-x86_64-apple-darwin11/yotokens-Core.dmg yotokens-Core-$VERSION.dmg; fi
 deploy:
   provider: releases
   api_key:

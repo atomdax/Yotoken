@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -97,15 +97,15 @@ public:
         pchMessageStart[3] = 0x89;
         vAlertPubKey = ParseHex("0444d74c0ea8967c7a0457f0ab8532fdd03900377780cb64a83ab8077510805a89eb9100948db395cbf5f0866b36e9697e65c35870134b52b65018a379cf02f035");                        
         nDefaultPort = 23777;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // yotoken starting difficulty is 1 / 2^12  //20
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // yotokens starting difficulty is 1 / 2^12  //20
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 2 * 60; // yotoken: 2 minutes
-        nTargetSpacing =  2 * 60;  // yotoken: 2 minute
+        nTargetTimespan = 2 * 60; // yotokens: 2 minutes
+        nTargetSpacing =  2 * 60;  // yotokens: 2 minute
         nLastPOWBlock = 3016;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
@@ -114,7 +114,7 @@ public:
         nMaxMoneyOut = 250000000 * COIN;
         strDeveloperFeePayee = "NVPFLzTkuxrsreEkxNbNYM6SvJG7cv8gEQ";
 
-        const char* pszTimestamp = "yotoken is part of the yotalk app, 06-04-2020";
+        const char* pszTimestamp = "yotokens is part of the yotalk app, 06-04-2020";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -191,8 +191,8 @@ public:
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 10; // yotoken: 10 seconds
-        nTargetSpacing = 10;  // yotoken: 10 seconds
+        nTargetTimespan = 10; // yotokens: 10 seconds
+        nTargetSpacing = 10;  // yotokens: 10 seconds
         nLastPOWBlock = 3016;
         nMaturity = 2;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
@@ -213,11 +213,11 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 193);
-        // Testnet yotoken BIP32 pubkeys start with 'DRKV'
+        // Testnet yotokens BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet yotoken BIP32 prvkeys start with 'DRKP'
+        // Testnet yotokens BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet yotoken BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet yotokens BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
@@ -262,8 +262,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 1;
-        nTargetTimespan = 5 * 60; // yotoken: 5 minutes
-        nTargetSpacing = 1 * 60;  // yotoken: 1 minute
+        nTargetTimespan = 5 * 60; // yotokens: 5 minutes
+        nTargetSpacing = 1 * 60;  // yotokens: 1 minute
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1586225788;
         genesis.nBits = 0x1e0ffff0;

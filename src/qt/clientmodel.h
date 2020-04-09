@@ -2,7 +2,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
 // Copyright (c) 2015-2017 The ALQO developers
-// Copyright (c) 2017-2018 The yotoken developers
+// Copyright (c) 2017-2018 The yotokens developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -37,7 +37,7 @@ enum NumConnections {
     CONNECTIONS_ALL = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for yotoken network client. */
+/** Model for yotokens network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

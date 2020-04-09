@@ -31,43 +31,43 @@ sudo apt-get install libzmq3-dev (provides ZMQ API 4.x)
 
 Now lets start:
 
-Download yotoken  github source:
+Download yotokens  github source:
 
 
-git clone https://github.com/yotoken/yotoken.git
+git clone https://github.com/yotokens/yotokens.git
 
 Now we are going to compile the Client:
 
-chmod a+x+w -R yotoken/
-cd yotoken
+chmod a+x+w -R yotokens/
+cd yotokens
 ./autogen.sh
 ./configure
 make
 make install
 
-Now lets run the yotoken daemon:
+Now lets run the yotokens daemon:
 
-yotokend &
+yotokensd &
 press enter
 
 
 We need to create our masternode Private Key.
 
-yotoken-cli masternode genkey
+yotokens-cli masternode genkey
 
 copy the generated code to a text file
 
-Now we need our yotoken address:
+Now we need our yotokens address:
 
-yotoken-cli getaccountaddress 0
+yotokens-cli getaccountaddress 0
 
 copy the generated address to a text file
 
-Send 1000 yotoken to "address 0"
+Send 1000 yotokens to "address 0"
 
-go to yotoken.conf in
+go to yotokens.conf in
 
-./root/.yotoken/
+./root/.yotokens/
 
 Paste this (dont forget to set rpcuser and password)
 
@@ -89,7 +89,7 @@ close config file.
 
 Now open 
 
-in /root/.yotoken/
+in /root/.yotokens/
 
 masternode.conf
 
@@ -102,7 +102,7 @@ mn1 127.0.0.1:23777 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84
 set up your ip, masternode privkey, and TXID (of the 1000 EMN)
 
 
-now shutdown yotokend process and restart it
+now shutdown yotokensd process and restart it
 
 lets list all proccesses:
 
@@ -113,19 +113,19 @@ find the proccess number
 
 kill (process number)
 
-now restart yotokend
+now restart yotokensd
 
 and lets start it again:
 
-yotokend &
+yotokensd &
 
 
 Now let check our masternode status:
 
-yotoken-cli masternode status
+yotokens-cli masternode status
 
 it will display if your wallet is masternode capable. if it does, just use command:  
 
 masternode start
 
-wait 10 seconds and use the command : yotoken-cli masternode list  (it should display a list of masternodes, check that your masternode is on the list).
+wait 10 seconds and use the command : yotokens-cli masternode list  (it should display a list of masternodes, check that your masternode is on the list).
