@@ -1642,11 +1642,11 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 	int64_t ret = 0;
 
 	if(nHeight > 0 && nHeight <= 200) {
-        ret = blockValue / 100 * 70;
+        ret = blockValue / 100 * 75;
 	} else if (nHeight > 200 && nHeight <= 300) {
-        ret = blockValue / 100 * 70;
+        ret = blockValue / 100 * 75;
 	} else if (nHeight > 300 && nHeight <= 999999999) {
-        ret = blockValue / 100 * 70;
+        ret = blockValue / 100 * 75;
 	} else if (nHeight > 999999999) {
 		int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
 

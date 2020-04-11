@@ -106,7 +106,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 2 * 60; // yotokens: 2 minutes
         nTargetSpacing =  2 * 60;  // yotokens: 2 minute
-        nLastPOWBlock = 400;
+        nLastPOWBlock = 500;
         nMaturity = 15;
         nMasternodeCountDrift = 20;
 		nMasternodeColleteralLimxDev = 50000; //Params().MasternodeColleteralLimxDev()
@@ -136,10 +136,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x5b6000eba3f56c57d056b863777e04bb090edb8d53030bab9ab88ffa7ceb3dc6"));
 	
        	// New Seed Nodes added 17/02/2019
-        vSeeds.push_back(CDNSSeedData("167.172.117.185", "167.172.117.185"));  // Seed node 1 : New Jersey	more nodes to be added		
-
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 29);
+        vSeeds.push_back(CDNSSeedData("206.189.177.57", "206.189.177.57"));  // Seed node 1		
+        vSeeds.push_back(CDNSSeedData("64.225.67.141", "64.225.67.141"));  // Seed node 2	
+		vSeeds.push_back(CDNSSeedData("178.128.19.21", "178.128.19.21"));  // Seed node 3
+		vSeeds.push_back(CDNSSeedData("206.189.116.8", "206.189.116.8"));  // Seed node 4
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 78);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 80);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 83);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0xAD)(0x04)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x1E)(0x04)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
