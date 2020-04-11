@@ -27,7 +27,7 @@ yotokens Coin – A Decentralized Data Sharing Platform, Hosting, and Content Di
 | Masternode Reward |</br>
 |:-----------|:-----------|</br>
 | Block | Reward |</br>
-| 20% for Stakers  | 80% of Block Reward for Masternodes |</br>
+| 25% for Stakers  | 75% of Block Reward for Masternodes |</br>
 
 
 
